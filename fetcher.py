@@ -1,4 +1,5 @@
 import requests
+import yaml
 import json
 import os
 import time
@@ -9,49 +10,64 @@ if GITHUB_TOKEN:
     HEADERS["Authorization"] = f"token {GITHUB_TOKEN}"
 
 def get_live_cncf_repos():
-    """Stage 1: Dynamically fetch all official CNCF projects from the Landscape API."""
-    print("Fetching live CNCF project list from landscape.cncf.io...")
+    """Stage 1: Fetch official CNCF projects directly from the GitHub source YAML."""
+    print("Fetching CNCF landscape source directly from GitHub (Bypassing Cloudflare)...")
+    
     try:
-        response = requests.get("https://landscape.cncf.io/data.json")
-        data = response.json()
+        # Bypassing the Cloudflare-protected website by hitting the raw GitHub repo
+        response = requests.get("https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml")
+        if response.status_code != 200:
+            print(f"Failed to fetch YAML: {response.status_code}")
+            return {}
+            
+        landscape_data = yaml.safe_load(response.text)
     except Exception as e:
-        print(f"Failed to fetch CNCF landscape data: {e}")
+        print(f"Failed to parse landscape YAML: {e}")
         return {}
 
     repos = {}
-    for item in data:
-        # Check if the item is an official CNCF project
-        project_tier = item.get("project")
-        if project_tier in ["graduated", "incubating", "sandbox"]:
-            
-            repo_url = item.get("repo_url", "")
-            if repo_url and repo_url.startswith("https://github.com/"):
-                # Clean the URL to get just "org/repo"
-                repo_path = repo_url.replace("https://github.com/", "").strip("/")
-                
-                # The landscape data often includes the primary language
-                github_data = item.get("github_data", {})
-                lang = github_data.get("language", "Unknown")
-                if not lang:
-                    lang = "Unknown"
-
-                repos[repo_path] = {
-                    "tier": project_tier.capitalize(),
-                    "lang": lang
-                }
-                
+    
+    # Traverse the nested YAML structure
+    if "landscape" in landscape_data:
+        for category in landscape_data["landscape"]:
+            for subcategory in category.get("subcategories", []):
+                for item in subcategory.get("items", []):
+                    
+                    project_tier = item.get("project")
+                    # We only care about official CNCF projects
+                    if project_tier in ["graduated", "incubating", "sandbox"]:
+                        repo_url = item.get("repo_url", "")
+                        
+                        if repo_url and repo_url.startswith("https://github.com/"):
+                            # Clean the URL to get just "org/repo"
+                            repo_path = repo_url.replace("https://github.com/", "").strip("/").replace(".git", "")
+                            
+                            repos[repo_path] = {
+                                "tier": project_tier.capitalize(),
+                                "lang": "Unknown" # We will fetch this directly from the GitHub API below
+                            }
+                            
     print(f"Discovered {len(repos)} official CNCF GitHub repositories.")
     return repos
 
 
 def fetch_issues(repos):
-    """Stage 2: Hunt for beginner issues across all discovered repositories."""
+    """Stage 2: Hunt for beginner issues and repo metadata."""
     labels = ["good first issue", "good-first-issue", "help wanted"]
     all_issues = []
 
     for repo, meta in repos.items():
         print(f"Checking {repo} ({meta['tier']})...")
         
+        # Fetch repo details to get the primary programming language for the frontend filter
+        repo_res = requests.get(f"https://api.github.com/repos/{repo}", headers=HEADERS)
+        if repo_res.status_code == 200:
+             meta["lang"] = repo_res.json().get("language") or "Unknown"
+        elif repo_res.status_code == 403:
+             print("Rate limited by GitHub! Pausing briefly...")
+             time.sleep(5)
+        
+        # Fetch the actual issues
         for label in labels:
             url = f"https://api.github.com/repos/{repo}/issues"
             params = {"state": "open", "labels": label, "per_page": 30}
@@ -61,7 +77,6 @@ def fetch_issues(repos):
             if response.status_code == 200:
                 issues = response.json()
                 for issue in issues:
-                    # Ignore PRs, we only want actual issues
                     if "pull_request" not in issue:
                         issue_data = {
                             "repo": repo,
@@ -75,15 +90,11 @@ def fetch_issues(repos):
                         if issue_data not in all_issues:
                             all_issues.append(issue_data)
             elif response.status_code == 403:
-                print(f"Rate limited by GitHub! Pausing for 5 seconds...")
                 time.sleep(5)
-            else:
-                print(f"Failed to fetch {repo}: {response.status_code}")
                 
-        # Pause for 1/2 a second between repos to respect GitHub's anti-abuse limits
+        # Protect the GitHub API Limit
         time.sleep(0.5)
 
-    # Save the final dataset
     with open("data.json", "w") as f:
         json.dump(all_issues, f, indent=4)
     print(f"\n--- SUCCESS ---")
@@ -91,11 +102,9 @@ def fetch_issues(repos):
 
 
 if __name__ == "__main__":
-    # Run Stage 1
     cncf_repos = get_live_cncf_repos()
     
-    # Run Stage 2 (Only if Stage 1 found repositories)
     if cncf_repos:
         fetch_issues(cncf_repos)
     else:
-        print("No repositories found. Check your internet connection or the CNCF Landscape API.")
+        print("No repositories found to scan. Halting process.")

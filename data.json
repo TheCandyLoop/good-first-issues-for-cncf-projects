@@ -1,6 +1,8 @@
 [
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ArgoCD events should display event issuer",
         "url": "https://github.com/argoproj/argo-cd/issues/25684",
         "labels": [
@@ -12,6 +14,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ARGOCD_OPTS does not accept --header parameter multiple times",
         "url": "https://github.com/argoproj/argo-cd/issues/24065",
         "labels": [
@@ -23,6 +27,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Configure Renovate to bump Dex",
         "url": "https://github.com/argoproj/argo-cd/issues/23089",
         "labels": [
@@ -35,6 +41,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add unit test for `argocd admin export/import` CLI command",
         "url": "https://github.com/argoproj/argo-cd/issues/21895",
         "labels": [
@@ -47,6 +55,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "App `OutOfSync` if untracked resource with same name as `PostDelete` hook exists in app namespace",
         "url": "https://github.com/argoproj/argo-cd/issues/21579",
         "labels": [
@@ -59,6 +69,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Prevent AppProject deletion with finalizers when applications exist in project",
         "url": "https://github.com/argoproj/argo-cd/issues/21111",
         "labels": [
@@ -70,6 +82,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "CLI: add possibility to diff the desired state instead of the live state",
         "url": "https://github.com/argoproj/argo-cd/issues/21059",
         "labels": [
@@ -81,6 +95,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "CLI app list should be able to filter based on a list of files",
         "url": "https://github.com/argoproj/argo-cd/issues/21052",
         "labels": [
@@ -92,6 +108,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Export metrics for a number of daily users (dau)",
         "url": "https://github.com/argoproj/argo-cd/issues/20801",
         "labels": [
@@ -103,6 +121,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[UI] Add a Diff button to the Apps on the home screen",
         "url": "https://github.com/argoproj/argo-cd/issues/20696",
         "labels": [
@@ -114,6 +134,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Show last refresh time for applications",
         "url": "https://github.com/argoproj/argo-cd/issues/20591",
         "labels": [
@@ -125,6 +147,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Hide author and comment for PRs under Sync Status and Last Sync or give such an option",
         "url": "https://github.com/argoproj/argo-cd/issues/20586",
         "labels": [
@@ -136,6 +160,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add additional capabilities to argocd-k8s-auth",
         "url": "https://github.com/argoproj/argo-cd/issues/20582",
         "labels": [
@@ -147,6 +173,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Make ArgoCD CLI login preserve the port forward arguments to not need to specify them when running other commands",
         "url": "https://github.com/argoproj/argo-cd/issues/20565",
         "labels": [
@@ -158,6 +186,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Provide client info in argocd server errors",
         "url": "https://github.com/argoproj/argo-cd/issues/20388",
         "labels": [
@@ -171,6 +201,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ApplicationSet hard to debug error with matrix generator with scmProvider and git when we have invalid yaml",
         "url": "https://github.com/argoproj/argo-cd/issues/19982",
         "labels": [
@@ -184,6 +216,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add warning log if ARGOCD_CONTROLLER_REPLICAS greater than configured replicas",
         "url": "https://github.com/argoproj/argo-cd/issues/19928",
         "labels": [
@@ -195,6 +229,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Improve rendering of unschedulable nodes",
         "url": "https://github.com/argoproj/argo-cd/issues/19870",
         "labels": [
@@ -206,6 +242,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Make buttons in the UI looks more like clickable buttons rather than labels",
         "url": "https://github.com/argoproj/argo-cd/issues/19698",
         "labels": [
@@ -218,6 +256,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "argocd.argoproj.io/auto-label-cluster-info doesn't work on eks clusters",
         "url": "https://github.com/argoproj/argo-cd/issues/19385",
         "labels": [
@@ -229,6 +269,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "\"&\" string in valuesObject mess up PARAMETERS tab on argocd's web ui",
         "url": "https://github.com/argoproj/argo-cd/issues/18632",
         "labels": [
@@ -242,6 +284,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Surface blog with (actual) release notes better",
         "url": "https://github.com/argoproj/argo-cd/issues/18280",
         "labels": [
@@ -253,6 +297,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Server command line option --request-timeout exists only in documentation in recent ArgoCD version and is not be used in the code",
         "url": "https://github.com/argoproj/argo-cd/issues/18198",
         "labels": [
@@ -266,6 +312,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add Argo CD dashboard back to the demo Grafana instance",
         "url": "https://github.com/argoproj/argo-cd/issues/17922",
         "labels": [
@@ -278,6 +326,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Notifications templates/trigger documentation does not specify field content",
         "url": "https://github.com/argoproj/argo-cd/issues/17628",
         "labels": [
@@ -291,6 +341,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Improve timeout message for `argocd app wait`",
         "url": "https://github.com/argoproj/argo-cd/issues/14705",
         "labels": [
@@ -302,6 +354,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Optionally add `app.kubernetes.io/managed-by` label to all resources",
         "url": "https://github.com/argoproj/argo-cd/issues/14638",
         "labels": [
@@ -312,6 +366,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ArogCD Notifications feature parity with FluxCD (v2) for Slack",
         "url": "https://github.com/argoproj/argo-cd/issues/14226",
         "labels": [
@@ -322,6 +378,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Rework Credentials template url layout in Settings: Repositories",
         "url": "https://github.com/argoproj/argo-cd/issues/12273",
         "labels": [
@@ -333,6 +391,8 @@
     },
     {
         "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Ingress link is not handled correctly if path: contains regex",
         "url": "https://github.com/argoproj/argo-cd/issues/12254",
         "labels": [
@@ -344,286 +404,571 @@
         "created_at": "2023-02-02T10:08:00Z"
     },
     {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Add an option in kustomize lib to suppress the deprecation warnings.",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5452",
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Migrate DRA components to support granular authorization on status updates",
+        "url": "https://github.com/kubernetes/kubernetes/issues/138149",
         "labels": [
+            "sig/network",
+            "sig/node",
+            "sig/auth",
             "help wanted",
             "good first issue",
-            "kind/feature",
-            "needs-triage"
-        ],
-        "created_at": "2023-11-16T17:48:12Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Custom Resources with a Kind Ending in \"List\" are Silently Ignored",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5042",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/bug",
-            "triage/accepted"
-        ],
-        "created_at": "2023-02-09T01:47:05Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "kustomize edit set image should correctly parse both tag and digest",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4713",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/bug",
-            "triage/accepted"
-        ],
-        "created_at": "2022-07-15T19:00:17Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "HelmChartInflationGenerator ignores releaseNamespace ",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4593",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/bug",
-            "needs-triage"
-        ],
-        "created_at": "2022-04-20T08:53:59Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "\"kustomize edit set image\" is too opinionated about the formatting and moves comments around",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4481",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/bug",
-            "lifecycle/frozen",
-            "triage/accepted"
-        ],
-        "created_at": "2022-02-21T10:49:29Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Consolidate kustomize documentation",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4338",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/documentation",
-            "triage/accepted"
-        ],
-        "created_at": "2021-12-09T22:41:57Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "ConfigMaps items are generated with random order",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4292",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/feature",
-            "triage/accepted"
-        ],
-        "created_at": "2021-11-16T13:42:46Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Replacements: better support for targeting `--key=value` container `args`",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4080",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/feature",
-            "lifecycle/frozen"
-        ],
-        "created_at": "2021-07-23T20:05:21Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "kyaml should implement KRM Functions Spec v1",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4024",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "lifecycle/frozen",
-            "kind/cleanup",
-            "needs-triage"
-        ],
-        "created_at": "2021-06-30T19:35:45Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "No docs for `ReplacementTransformer`",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5812",
-        "labels": [
-            "help wanted",
-            "kind/documentation",
-            "lifecycle/stale",
-            "triage/accepted"
-        ],
-        "created_at": "2024-11-25T09:01:43Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Document KUSTOMIZE_PLUGIN_HOME",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5706",
-        "labels": [
-            "help wanted",
-            "kind/documentation",
-            "lifecycle/frozen",
-            "triage/accepted"
-        ],
-        "created_at": "2024-05-23T08:51:41Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Remove duplicate label behavior: commonLabels vs labels.includeSelectors",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5436",
-        "labels": [
-            "help wanted",
-            "kind/deprecation",
-            "triage/accepted"
-        ],
-        "created_at": "2023-11-10T23:34:04Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Prioritize friction with migration from deprecated fields to new fields.",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5122",
-        "labels": [
-            "help wanted",
-            "needs-kind",
-            "needs-triage",
-            "area/api"
-        ],
-        "created_at": "2023-04-11T19:14:59Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "kustomize edit add replacement",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4679",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "needs-triage"
-        ],
-        "created_at": "2022-06-15T12:28:42Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "ConfigMap generated hashes don't get replaced when using replacements",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4475",
-        "labels": [
-            "help wanted",
-            "lifecycle/rotten",
-            "kind/bug",
-            "triage/under-consideration"
-        ],
-        "created_at": "2022-02-15T10:36:11Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Regression: Resource with generateName builds with 4.1.1, fails with anything later",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4224",
-        "labels": [
-            "help wanted",
-            "kind/regression",
-            "needs-triage"
-        ],
-        "created_at": "2021-10-05T14:57:01Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "install_kustomize.sh returns `Version vX.X.X does not exist` for non module versions.",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4130",
-        "labels": [
-            "help wanted",
-            "lifecycle/rotten",
-            "kind/bug",
-            "needs-triage"
-        ],
-        "created_at": "2021-08-20T12:40:10Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Fix breaking api tests on windows",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4001",
-        "labels": [
-            "help wanted",
-            "lifecycle/frozen",
-            "priority/important-longterm",
-            "kind/test-coverage",
             "triage/accepted",
-            "area/api"
+            "wg/device-management"
         ],
-        "created_at": "2021-06-16T21:27:57Z"
+        "created_at": "2026-04-01T15:12:39Z"
     },
     {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Improve docs for getting started with Kustomize",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/3973",
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "DRA: measure and track performance of \"experimental\" allocator",
+        "url": "https://github.com/kubernetes/kubernetes/issues/135058",
         "labels": [
-            "help wanted",
-            "kind/documentation",
-            "needs-triage"
-        ],
-        "created_at": "2021-06-09T18:56:14Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "kustomize edit set label",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/3866",
-        "labels": [
-            "help wanted",
             "kind/feature",
+            "help wanted",
+            "good first issue",
+            "needs-triage",
+            "wg/device-management"
+        ],
+        "created_at": "2025-11-03T13:09:39Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "add and use alternative APIs which support contextual logging",
+        "url": "https://github.com/kubernetes/kubernetes/issues/126379",
+        "labels": [
+            "area/logging",
+            "kind/feature",
+            "help wanted",
+            "sig/instrumentation",
+            "good first issue",
+            "triage/accepted",
+            "wg/structured-logging"
+        ],
+        "created_at": "2024-07-26T07:52:31Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.",
+        "url": "https://github.com/kubernetes/kubernetes/issues/118172",
+        "labels": [
+            "kind/bug",
+            "priority/backlog",
+            "kind/documentation",
+            "sig/node",
+            "help wanted",
+            "priority/important-longterm",
+            "good first issue",
             "triage/accepted"
         ],
-        "created_at": "2021-05-03T08:31:43Z"
+        "created_at": "2023-05-22T11:54:19Z"
     },
     {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Add documentation for kustomize commands",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/3464",
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Reuse the http request object for http probes",
+        "url": "https://github.com/kubernetes/kubernetes/issues/115939",
         "labels": [
+            "area/kubelet",
+            "sig/node",
             "help wanted",
+            "good first issue",
+            "needs-triage"
+        ],
+        "created_at": "2023-02-21T23:07:09Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold",
+        "url": "https://github.com/kubernetes/kubernetes/issues/115823",
+        "labels": [
+            "priority/backlog",
             "kind/documentation",
-            "lifecycle/rotten",
-            "lifecycle/frozen",
-            "needs-triage"
+            "kind/cleanup",
+            "sig/node",
+            "help wanted",
+            "good first issue",
+            "triage/accepted"
         ],
-        "created_at": "2021-01-15T02:13:22Z"
+        "created_at": "2023-02-16T09:02:13Z"
     },
     {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "Add a set of performance benchmark",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/3248",
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Write the stress test for gRPC, http, and tcp probes",
+        "url": "https://github.com/kubernetes/kubernetes/issues/115782",
         "labels": [
+            "priority/backlog",
+            "kind/cleanup",
+            "sig/node",
             "help wanted",
-            "kind/feature",
-            "lifecycle/frozen",
-            "area/kyaml",
-            "kind/regression",
-            "needs-triage",
-            "area/cli"
-        ],
-        "created_at": "2020-11-18T21:20:51Z"
-    },
-    {
-        "repo": "kubernetes-sigs/kustomize",
-        "title": "globbing/wildcards in \"resources\" field",
-        "url": "https://github.com/kubernetes-sigs/kustomize/issues/119",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "lifecycle/frozen",
+            "good first issue",
             "needs-triage"
         ],
-        "created_at": "2018-06-18T19:46:30Z"
+        "created_at": "2023-02-15T00:07:14Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "NetworkPolicy tests for blocking north/south traffic",
+        "url": "https://github.com/kubernetes/kubernetes/issues/114369",
+        "labels": [
+            "priority/backlog",
+            "sig/network",
+            "help wanted",
+            "good first issue",
+            "triage/accepted",
+            "area/network-policy"
+        ],
+        "created_at": "2022-12-08T16:32:02Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`",
+        "url": "https://github.com/kubernetes/kubernetes/issues/112733",
+        "labels": [
+            "kind/bug",
+            "sig/node",
+            "help wanted",
+            "good first issue",
+            "triage/accepted"
+        ],
+        "created_at": "2022-09-26T12:05:17Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "tracker: improve the kubelet test coverage",
+        "url": "https://github.com/kubernetes/kubernetes/issues/109717",
+        "labels": [
+            "sig/node",
+            "help wanted",
+            "good first issue",
+            "needs-triage"
+        ],
+        "created_at": "2022-04-29T06:51:28Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Investigate nftables startup performance at scale",
+        "url": "https://github.com/kubernetes/kubernetes/issues/139328",
+        "labels": [
+            "sig/network",
+            "area/kube-proxy",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-05-27T14:22:32Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Flaking Test] [sig-autoscaling] Horizontal pod autoscaling (scale resource: CPU) ReplicaSet Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods and verify decision stability",
+        "url": "https://github.com/kubernetes/kubernetes/issues/139200",
+        "labels": [
+            "sig/autoscaling",
+            "kind/flake",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-05-20T19:52:56Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series",
+        "url": "https://github.com/kubernetes/kubernetes/issues/138679",
+        "labels": [
+            "kind/flake",
+            "help wanted",
+            "sig/instrumentation",
+            "triage/accepted"
+        ],
+        "created_at": "2026-04-29T13:57:41Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Flaking Test] [sig-api-machinery] Simple CustomResourceDefinition creating/deleting custom resource definition objects works [Conformance]",
+        "url": "https://github.com/kubernetes/kubernetes/issues/138085",
+        "labels": [
+            "sig/api-machinery",
+            "kind/flake",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-03-28T16:56:31Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Migrate 'Good First Migration' Immutable Fields to Declarative Validation",
+        "url": "https://github.com/kubernetes/kubernetes/issues/136785",
+        "labels": [
+            "sig/api-machinery",
+            "help wanted",
+            "triage/accepted",
+            "area/api-validation"
+        ],
+        "created_at": "2026-02-05T20:45:34Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Graduate apiserver metrics to BETA",
+        "url": "https://github.com/kubernetes/kubernetes/issues/136304",
+        "labels": [
+            "sig/api-machinery",
+            "help wanted",
+            "sig/instrumentation",
+            "triage/accepted"
+        ],
+        "created_at": "2026-01-18T21:35:31Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Pod-level limits defaults not set when all containers have limits set and pod-level request is set",
+        "url": "https://github.com/kubernetes/kubernetes/issues/136120",
+        "labels": [
+            "kind/bug",
+            "sig/node",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-01-09T01:02:16Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Graduate old Alpha metrics to Beta",
+        "url": "https://github.com/kubernetes/kubernetes/issues/136107",
+        "labels": [
+            "kind/feature",
+            "help wanted",
+            "sig/instrumentation",
+            "triage/accepted"
+        ],
+        "created_at": "2026-01-08T13:55:34Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Migrate \"Good First Migration\" Required Fields to Declarative Validation",
+        "url": "https://github.com/kubernetes/kubernetes/issues/135752",
+        "labels": [
+            "sig/api-machinery",
+            "kind/feature",
+            "help wanted",
+            "triage/accepted",
+            "area/api-validation"
+        ],
+        "created_at": "2025-12-14T22:44:06Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "test/integration/apiserver: TestCustomResourceValidatorsWithSchemaConversion",
+        "url": "https://github.com/kubernetes/kubernetes/issues/135540",
+        "labels": [
+            "sig/api-machinery",
+            "kind/flake",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-12-02T06:48:30Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Tracking: Enable Kube-API-Linter rules",
+        "url": "https://github.com/kubernetes/kubernetes/issues/134671",
+        "labels": [
+            "sig/api-machinery",
+            "help wanted",
+            "sig/architecture",
+            "triage/accepted"
+        ],
+        "created_at": "2025-10-17T09:42:32Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Add Verbose Logging to net/http for Egress Auditing and Rename probe/http/http.go",
+        "url": "https://github.com/kubernetes/kubernetes/issues/134025",
+        "labels": [
+            "priority/backlog",
+            "sig/node",
+            "kind/feature",
+            "help wanted",
+            "sig/instrumentation",
+            "triage/accepted"
+        ],
+        "created_at": "2025-09-11T20:05:51Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Prevent duplicate initializations of cache and etcd store",
+        "url": "https://github.com/kubernetes/kubernetes/issues/133877",
+        "labels": [
+            "kind/bug",
+            "sig/api-machinery",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-09-03T15:53:33Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[FG:InPlacePodVerticalScaling] Investigate recovery from failure when setting allocated resources",
+        "url": "https://github.com/kubernetes/kubernetes/issues/133538",
+        "labels": [
+            "priority/backlog",
+            "sig/node",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-08-14T21:05:16Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "need a conformance test for named ports in Services",
+        "url": "https://github.com/kubernetes/kubernetes/issues/132954",
+        "labels": [
+            "sig/network",
+            "help wanted",
+            "priority/important-longterm",
+            "area/conformance",
+            "triage/accepted"
+        ],
+        "created_at": "2025-07-15T11:11:07Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Cache NodeInfo for Kubelet admission",
+        "url": "https://github.com/kubernetes/kubernetes/issues/132858",
+        "labels": [
+            "kind/cleanup",
+            "sig/node",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-07-10T03:37:55Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Clean up circular dependencies around the kubelet's admitHandlers and the container runtime",
+        "url": "https://github.com/kubernetes/kubernetes/issues/132298",
+        "labels": [
+            "kind/cleanup",
+            "sig/node",
+            "help wanted",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2025-06-13T20:32:48Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "API can be streamlined: assume same key for some `EnvVarSource`",
+        "url": "https://github.com/kubernetes/kubernetes/issues/132195",
+        "labels": [
+            "priority/backlog",
+            "area/api",
+            "sig/node",
+            "kind/feature",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2025-06-09T16:15:58Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Kubelet metrics definitions?",
+        "url": "https://github.com/kubernetes/kubernetes/issues/131986",
+        "labels": [
+            "kind/bug",
+            "kind/documentation",
+            "sig/node",
+            "help wanted",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2025-05-27T15:43:29Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "docker credential JSON: validate non UTF-8 characters",
+        "url": "https://github.com/kubernetes/kubernetes/issues/131982",
+        "labels": [
+            "kind/bug",
+            "priority/backlog",
+            "sig/node",
+            "help wanted",
+            "sig/security",
+            "triage/accepted"
+        ],
+        "created_at": "2025-05-27T14:06:46Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Implement checking apiserver memory limit below threshold in list benchmarks",
+        "url": "https://github.com/kubernetes/kubernetes/issues/131885",
+        "labels": [
+            "sig/api-machinery",
+            "kind/feature",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-05-21T11:57:50Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Tag Slow e2e tests correctly",
+        "url": "https://github.com/kubernetes/kubernetes/issues/131049",
+        "labels": [
+            "help wanted",
+            "sig/testing",
+            "needs-triage"
+        ],
+        "created_at": "2025-03-25T10:57:17Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "k8s.io/apiserver/pkg/registry/generic/testing: store objects with defaults applied",
+        "url": "https://github.com/kubernetes/kubernetes/issues/130975",
+        "labels": [
+            "kind/bug",
+            "sig/api-machinery",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-03-21T10:23:21Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Explore user network namespace for rootless network testing",
+        "url": "https://github.com/kubernetes/kubernetes/issues/130926",
+        "labels": [
+            "sig/network",
+            "help wanted",
+            "sig/testing",
+            "triage/accepted"
+        ],
+        "created_at": "2025-03-19T13:31:38Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Stabilize benchmark list by limiting QPS",
+        "url": "https://github.com/kubernetes/kubernetes/issues/130869",
+        "labels": [
+            "sig/scalability",
+            "sig/api-machinery",
+            "kind/feature",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-03-17T17:44:11Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Automate away duplication of defaulting in Fuzzer Funcs",
+        "url": "https://github.com/kubernetes/kubernetes/issues/130791",
+        "labels": [
+            "sig/api-machinery",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-03-13T17:30:50Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Remove usage of assertion libraries in pkg/scheduler tests",
+        "url": "https://github.com/kubernetes/kubernetes/issues/130407",
+        "labels": [
+            "kind/cleanup",
+            "sig/scheduling",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2025-02-25T09:56:13Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Implement missing LIST benchmarks",
+        "url": "https://github.com/kubernetes/kubernetes/issues/130169",
+        "labels": [
+            "sig/api-machinery",
+            "kind/feature",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-02-14T14:01:05Z"
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "New watcher wait strategy lacking SDK logging",
         "url": "https://github.com/helm/helm/issues/31585",
         "labels": [
@@ -634,6 +979,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Helm 3.19 crashes with a nil pointer dereference",
         "url": "https://github.com/helm/helm/issues/31552",
         "labels": [
@@ -644,6 +991,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Display oci annotations or created date if annotation exists in helm show chart command",
         "url": "https://github.com/helm/helm/issues/30787",
         "labels": [
@@ -657,6 +1006,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "broken naming/rendering of aliased subcharts",
         "url": "https://github.com/helm/helm/issues/11484",
         "labels": [
@@ -669,6 +1020,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Shared action configs changed if install action runs with ClientOnly flagged",
         "url": "https://github.com/helm/helm/issues/11463",
         "labels": [
@@ -681,6 +1034,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Helm supports unix style path in HELM_PLUGINS for loading, but fails when installing new plugins",
         "url": "https://github.com/helm/helm/issues/11310",
         "labels": [
@@ -692,6 +1047,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Unclear error about \"table\" destination",
         "url": "https://github.com/helm/helm/issues/11118",
         "labels": [
@@ -703,6 +1060,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "helm lint misses bad chart names",
         "url": "https://github.com/helm/helm/issues/10537",
         "labels": [
@@ -714,6 +1073,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Feature request: `helm dependency update --untar`",
         "url": "https://github.com/helm/helm/issues/8479",
         "labels": [
@@ -725,6 +1086,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Errors on \"helm list\" AND \"helm install\"",
         "url": "https://github.com/helm/helm/issues/7997",
         "labels": [
@@ -737,6 +1100,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Getting `panic: failed to create default capabilities` when building with Bazel",
         "url": "https://github.com/helm/helm/issues/31904",
         "labels": [
@@ -747,6 +1112,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Provenance file chart.yaml doesn't match the source",
         "url": "https://github.com/helm/helm/issues/31866",
         "labels": [
@@ -758,6 +1125,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Breaking change to helm list cli command in v4",
         "url": "https://github.com/helm/helm/issues/31784",
         "labels": [
@@ -769,6 +1138,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Avoid using and setting a global slog",
         "url": "https://github.com/helm/helm/issues/31724",
         "labels": [
@@ -779,6 +1150,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Show if more search results are present",
         "url": "https://github.com/helm/helm/issues/31617",
         "labels": [
@@ -789,6 +1162,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "duplicate env vars are now treated as errors in helm v4",
         "url": "https://github.com/helm/helm/issues/31529",
         "labels": [
@@ -800,6 +1175,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Helm4 upgrade with dry-run and server-side enabled doesn't catch errors",
         "url": "https://github.com/helm/helm/issues/31505",
         "labels": [
@@ -810,6 +1187,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "TestUserAgentHeaderInK8sRESTClientConfig appears to fail when you have a bad .kube/config",
         "url": "https://github.com/helm/helm/issues/31470",
         "labels": [
@@ -820,6 +1199,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add support for SOURCE_DATE_EPOCH in reproducible builds",
         "url": "https://github.com/helm/helm/issues/31439",
         "labels": [
@@ -831,6 +1212,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Remove work-arounds once oras-go creates patch release",
         "url": "https://github.com/helm/helm/issues/31386",
         "labels": [
@@ -841,6 +1224,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "`helm package` clobbers subcharts with different aliases and versions",
         "url": "https://github.com/helm/helm/issues/30821",
         "labels": [
@@ -851,6 +1236,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add support for `org.opencontainers.image.revision` OCI annotation/label",
         "url": "https://github.com/helm/helm/issues/30732",
         "labels": [
@@ -862,6 +1249,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "incorrect arg parsing with helm plugins",
         "url": "https://github.com/helm/helm/issues/13686",
         "labels": [
@@ -872,6 +1261,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Helm session HTTP header",
         "url": "https://github.com/helm/helm/issues/13182",
         "labels": [
@@ -882,6 +1273,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Missing docs on ownership annotations",
         "url": "https://github.com/helm/helm/issues/12869",
         "labels": [
@@ -893,6 +1286,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "There is no specific functionality just to check the objects that are deployed as part of helm",
         "url": "https://github.com/helm/helm/issues/12722",
         "labels": [
@@ -904,6 +1299,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Print waiting message when --wait is used for install/upgrade",
         "url": "https://github.com/helm/helm/issues/12710",
         "labels": [
@@ -915,6 +1312,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Create ServiceAccountToken Template",
         "url": "https://github.com/helm/helm/issues/12693",
         "labels": [
@@ -926,6 +1325,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Surprising behavior of dependencies.condition",
         "url": "https://github.com/helm/helm/issues/12264",
         "labels": [
@@ -937,6 +1338,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Helm error message can leak sensitive data such as credentials on upgrade error",
         "url": "https://github.com/helm/helm/issues/12176",
         "labels": [
@@ -948,6 +1351,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Cannot add plugins with git fsmonitor daemon enabled",
         "url": "https://github.com/helm/helm/issues/12125",
         "labels": [
@@ -959,6 +1364,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Feature: Support `--output json` flag for `helm push`",
         "url": "https://github.com/helm/helm/issues/11735",
         "labels": [
@@ -969,6 +1376,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[FEATURE] helm dependency check-updates",
         "url": "https://github.com/helm/helm/issues/11406",
         "labels": [
@@ -980,6 +1389,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Wrong warning message when coalescing values for a subchart that contains subchart",
         "url": "https://github.com/helm/helm/issues/11251",
         "labels": [
@@ -990,6 +1401,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "`helm search repo chart <oci-repo/oci-chart>` --versions for OCI",
         "url": "https://github.com/helm/helm/issues/11000",
         "labels": [
@@ -1002,6 +1415,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Creating a CronJob with PVC and a WaitForFirstConsumer SC times out",
         "url": "https://github.com/helm/helm/issues/10733",
         "labels": [
@@ -1013,6 +1428,8 @@
     },
     {
         "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Helm pre-delete hooks Remove Chart Metadata on Failure",
         "url": "https://github.com/helm/helm/issues/9700",
         "labels": [
@@ -1024,6 +1441,8 @@
     },
     {
         "repo": "fluent/fluentd",
+        "tier": "Graduated",
+        "lang": "Ruby",
         "title": "System config: add umask option",
         "url": "https://github.com/fluent/fluentd/issues/4816",
         "labels": [
@@ -1034,6 +1453,8 @@
     },
     {
         "repo": "fluent/fluentd",
+        "tier": "Graduated",
+        "lang": "Ruby",
         "title": "emit warning along with unmatched line",
         "url": "https://github.com/fluent/fluentd/issues/3501",
         "labels": [
@@ -1044,6 +1465,8 @@
     },
     {
         "repo": "fluent/fluentd",
+        "tier": "Graduated",
+        "lang": "Ruby",
         "title": "File permissions can't have full accesss",
         "url": "https://github.com/fluent/fluentd/issues/4810",
         "labels": [
@@ -1054,6 +1477,8 @@
     },
     {
         "repo": "fluent/fluentd",
+        "tier": "Graduated",
+        "lang": "Ruby",
         "title": "Buffer size metrics showing negative values",
         "url": "https://github.com/fluent/fluentd/issues/5303",
         "labels": [
@@ -1061,5 +1486,645 @@
             "help wanted"
         ],
         "created_at": "2020-09-24T21:15:50Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Feature] CEL-aware Grafana dashboard for ValidatingPolicy/MutatingPolicy/GeneratingPolicy",
+        "url": "https://github.com/kyverno/kyverno/issues/16025",
+        "labels": [
+            "good first issue",
+            "grafana",
+            "metrics"
+        ],
+        "created_at": "2026-05-06T08:06:39Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] ImageValidatingPolicy CEL evaluation produces no logs even at --v=6",
+        "url": "https://github.com/kyverno/kyverno/issues/16023",
+        "labels": [
+            "bug",
+            "good first issue",
+            "imageVerify",
+            "cel:ImageValidatingPolicy"
+        ],
+        "created_at": "2026-05-06T04:14:53Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Feature] Warn wildcard policies",
+        "url": "https://github.com/kyverno/kyverno/issues/15488",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "events"
+        ],
+        "created_at": "2026-03-09T13:19:12Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Chore]",
+        "url": "https://github.com/kyverno/kyverno/issues/15244",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "type:controller"
+        ],
+        "created_at": "2026-02-15T18:04:11Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] align logging of MutatingPolicy and mutate rules",
+        "url": "https://github.com/kyverno/kyverno/issues/13958",
+        "labels": [
+            "bug",
+            "good first issue",
+            "mutation",
+            "end user"
+        ],
+        "created_at": "2025-09-05T12:07:47Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] namespaceSelector not working 1.14.1",
+        "url": "https://github.com/kyverno/kyverno/issues/13093",
+        "labels": [
+            "bug",
+            "good first issue",
+            "validation",
+            "release-critical",
+            "type:clusterpolicy"
+        ],
+        "created_at": "2025-05-09T07:05:36Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] [CLI] Kyverno test labels a test run passing if the test expects a fail but the policy a pass",
+        "url": "https://github.com/kyverno/kyverno/issues/11519",
+        "labels": [
+            "bug",
+            "good first issue",
+            "type:cli",
+            "test",
+            "cli:test"
+        ],
+        "created_at": "2024-11-04T03:33:20Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Enhancement] Reduce logs when set to level 1",
+        "url": "https://github.com/kyverno/kyverno/issues/9581",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "log enhancement"
+        ],
+        "created_at": "2024-01-31T12:31:42Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Feature] failurePolicy to be properly defaulted to `Fail` in the resource",
+        "url": "https://github.com/kyverno/kyverno/issues/7698",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "stale"
+        ],
+        "created_at": "2023-06-28T12:16:01Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "test: migrate webapp ITs from TestRestTemplate to RestTestClient",
+        "url": "https://github.com/microcks/microcks/issues/2116",
+        "labels": [
+            "kind/task",
+            "good first issue",
+            "java",
+            "keep-open"
+        ],
+        "created_at": "2026-05-11T22:27:02Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Generalisation of AsyncAPI Request/Reply for other protocols",
+        "url": "https://github.com/microcks/microcks/issues/2056",
+        "labels": [
+            "component/mocks",
+            "component/documentation",
+            "help wanted",
+            "type/Epic",
+            "keep-open"
+        ],
+        "created_at": "2026-04-29T14:10:57Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Microcks `1.15.0` scope definition",
+        "url": "https://github.com/microcks/microcks/issues/2048",
+        "labels": [
+            "kind/task",
+            "help wanted",
+            "type/Epic",
+            "keep-open"
+        ],
+        "created_at": "2026-04-23T09:23:54Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Helm chart: support TLS on microcks HTTP endpoint",
+        "url": "https://github.com/microcks/microcks/issues/1784",
+        "labels": [
+            "kind/enhancement",
+            "component/install",
+            "help wanted",
+            "component/kubernetes",
+            "keep-open"
+        ],
+        "created_at": "2025-10-15T11:48:33Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Feature Request: Add native support for Bruno collections in Microcks",
+        "url": "https://github.com/microcks/microcks/issues/1744",
+        "labels": [
+            "kind/feature",
+            "kind/question",
+            "component/mocks",
+            "component/tests",
+            "help wanted",
+            "keep-open"
+        ],
+        "created_at": "2025-09-17T14:28:11Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Enable encryption at rest for Secrets",
+        "url": "https://github.com/microcks/microcks/issues/1382",
+        "labels": [
+            "kind/enhancement",
+            "component/install",
+            "help wanted",
+            "keep-open"
+        ],
+        "created_at": "2024-10-16T14:11:50Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "IBM MQ AsyncAPI support documentation",
+        "url": "https://github.com/microcks/microcks/issues/1345",
+        "labels": [
+            "kind/feature",
+            "component/documentation",
+            "help wanted",
+            "type/Part",
+            "keep-open"
+        ],
+        "created_at": "2024-09-26T15:58:03Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "IBM MQ AsyncAPI support setup",
+        "url": "https://github.com/microcks/microcks/issues/1344",
+        "labels": [
+            "kind/feature",
+            "component/install",
+            "help wanted",
+            "type/Part",
+            "component/kubernetes",
+            "keep-open"
+        ],
+        "created_at": "2024-09-26T15:57:05Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "IBM MQ AsyncAPI testing support",
+        "url": "https://github.com/microcks/microcks/issues/1343",
+        "labels": [
+            "kind/feature",
+            "component/tests",
+            "help wanted",
+            "type/Part",
+            "keep-open"
+        ],
+        "created_at": "2024-09-26T15:55:51Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "IBM MQ AsyncAPI mocking support",
+        "url": "https://github.com/microcks/microcks/issues/1342",
+        "labels": [
+            "kind/feature",
+            "component/mocks",
+            "help wanted",
+            "type/Part",
+            "keep-open"
+        ],
+        "created_at": "2024-09-26T15:54:04Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Why do microcks compose its own mongoDB/keycloak/kafka chart instead of use public chart from bitnami?",
+        "url": "https://github.com/microcks/microcks/issues/1197",
+        "labels": [
+            "kind/question",
+            "component/openshift",
+            "component/install",
+            "help wanted",
+            "component/kubernetes",
+            "keep-open"
+        ],
+        "created_at": "2024-06-12T09:20:17Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Add support for Apache Pulsar message broker for Mocking/Testing",
+        "url": "https://github.com/microcks/microcks/issues/1196",
+        "labels": [
+            "kind/feature",
+            "component/mocks",
+            "component/tests",
+            "help wanted",
+            "type/Epic",
+            "java",
+            "keep-open"
+        ],
+        "created_at": "2024-06-11T09:17:39Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "AsyncAPI version 2.6.0 is not supported",
+        "url": "https://github.com/microcks/microcks/issues/1133",
+        "labels": [
+            "kind/bug",
+            "component/ux",
+            "help wanted",
+            "keep-open"
+        ],
+        "created_at": "2024-04-13T01:28:38Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Mockserver mocks import",
+        "url": "https://github.com/microcks/microcks/issues/948",
+        "labels": [
+            "help wanted",
+            "keep-open"
+        ],
+        "created_at": "2023-10-22T12:23:43Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Horizontal scrollbar when extension names are long in preferences",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/16774",
+        "labels": [
+            "good first issue",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-03-24T12:52:47Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "When Podman Desktop is installed with Hyper-V, Podman Machines still chose WSL as default",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/16657",
+        "labels": [
+            "good first issue",
+            "os/windows \ud83e\ude9f",
+            "engine/podman \ud83e\uddad",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-03-17T11:08:58Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "feat: support extension menu context contribution for networks",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/16286",
+        "labels": [
+            "good first issue",
+            "area/extensions \ud83e\udde9"
+        ],
+        "created_at": "2026-02-17T13:44:19Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Stop all selected containers",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/16142",
+        "labels": [
+            "good first issue",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-02-09T15:00:02Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Registries UI is misaligned based on actions performed",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/15779",
+        "labels": [
+            "good first issue",
+            "domain/ui-components"
+        ],
+        "created_at": "2026-01-20T10:14:25Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Request: Tty should be TTY",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/15663",
+        "labels": [
+            "good first issue",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-01-12T18:51:12Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Implement proper ARIA functionality for Preferences page",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/15163",
+        "labels": [
+            "good first issue",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-12-02T14:02:55Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Default managed configuration does not skip welcome screen",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/14945",
+        "labels": [
+            "good first issue",
+            "area/settings \u2699\ufe0f",
+            "area/managed-configuration",
+            "forward"
+        ],
+        "created_at": "2025-11-18T11:58:07Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Improved Delete Button Component",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/14437",
+        "labels": [
+            "good first issue",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-10-16T11:54:42Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Skipping podman dashboard onbording leads to the black screen on backfield",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/14146",
+        "labels": [
+            "good first issue",
+            "area/dashboard \ud83d\udcca",
+            "domain/ui-components"
+        ],
+        "created_at": "2025-09-30T15:04:31Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Tooltip appears when unexpected if used with multiple DropdownMenus",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/13749",
+        "labels": [
+            "good first issue",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-08-28T20:58:59Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "refactor(ProviderRegistry): `getMatchingConnectionFromProvider` should not have fallback condition",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/13530",
+        "labels": [
+            "good first issue",
+            "hacktoberfest"
+        ],
+        "created_at": "2025-08-08T10:13:11Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "\"Search extensions...\" by default only searches in installed extensions",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/13276",
+        "labels": [
+            "good first issue",
+            "hacktoberfest",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-07-18T12:51:55Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "\"Extension\" repeated way too many times on Installed page.",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/13104",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "hacktoberfest",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-07-08T13:22:31Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Log lines in podman desktop start with a \ufffd character",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/13069",
+        "labels": [
+            "good first issue",
+            "hacktoberfest"
+        ],
+        "created_at": "2025-07-04T07:35:21Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Option to stop container engine on Podman Desktop exit",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/12944",
+        "labels": [
+            "good first issue",
+            "area/dashboard \ud83d\udcca",
+            "external-user"
+        ],
+        "created_at": "2025-06-23T19:04:50Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "chore(codecov): enable bundle analysis",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/12161",
+        "labels": [
+            "good first issue",
+            "area/tooling \ud83d\udee0\ufe0f",
+            "hacktoberfest"
+        ],
+        "created_at": "2025-04-11T08:01:22Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Canceling permissions prompt on CLI tool update in PD is ignored",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/11669",
+        "labels": [
+            "good first issue",
+            "area/extensions \ud83e\udde9",
+            "os/macOS \ud83c\udf4e"
+        ],
+        "created_at": "2025-03-14T11:49:40Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Removing `*Sync` operation in Podman Desktop",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/11434",
+        "labels": [
+            "good first issue",
+            "area/development-mode \ud83e\uddd1\u200d\ud83d\udcbb",
+            "area/tooling \ud83d\udee0\ufe0f",
+            "hacktoberfest"
+        ],
+        "created_at": "2025-02-27T17:18:20Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "UI/UX: Need to correct the wording in a pop-up for clarity",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/11098",
+        "labels": [
+            "good first issue",
+            "area/docker-compatibility \ud83d\udc33",
+            "hacktoberfest",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-02-12T05:32:34Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Avoid creation of extension file watcher on non-existent folder",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/11018",
+        "labels": [
+            "good first issue",
+            "area/extensions \ud83e\udde9",
+            "hacktoberfest"
+        ],
+        "created_at": "2025-02-06T15:37:08Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "search option is shifting the terminal display",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/10819",
+        "labels": [
+            "good first issue",
+            "area/terminal",
+            "hacktoberfest",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-01-24T08:41:03Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Installation of CLI tools in resticted environment causes errors ",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/6653",
+        "labels": [
+            "good first issue",
+            "area/extensions/compose \ud83c\udfb9",
+            "area/extension/kubectl-cli",
+            "domain/cli-tools"
+        ],
+        "created_at": "2024-04-04T13:28:45Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "\"Path\" title for podman binary should be \"Path to Binary\"",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/3847",
+        "labels": [
+            "good first issue",
+            "domain/documentation \ud83d\udcd6",
+            "hacktoberfest"
+        ],
+        "created_at": "2023-09-08T13:53:41Z"
     }
 ]

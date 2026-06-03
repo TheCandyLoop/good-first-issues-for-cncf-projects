@@ -1,0 +1,1065 @@
+[
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "ArgoCD events should display event issuer",
+        "url": "https://github.com/argoproj/argo-cd/issues/25684",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ui"
+        ],
+        "created_at": "2025-12-16T07:30:05Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "ARGOCD_OPTS does not accept --header parameter multiple times",
+        "url": "https://github.com/argoproj/argo-cd/issues/24065",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component:cli"
+        ],
+        "created_at": "2025-08-07T14:41:27Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Configure Renovate to bump Dex",
+        "url": "https://github.com/argoproj/argo-cd/issues/23089",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ci",
+            "Stale"
+        ],
+        "created_at": "2025-05-21T20:16:59Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Add unit test for `argocd admin export/import` CLI command",
+        "url": "https://github.com/argoproj/argo-cd/issues/21895",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:cli",
+            "component:test"
+        ],
+        "created_at": "2025-02-17T17:27:00Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "App `OutOfSync` if untracked resource with same name as `PostDelete` hook exists in app namespace",
+        "url": "https://github.com/argoproj/argo-cd/issues/21579",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component:ui",
+            "version:2.13"
+        ],
+        "created_at": "2025-01-20T13:25:50Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Prevent AppProject deletion with finalizers when applications exist in project",
+        "url": "https://github.com/argoproj/argo-cd/issues/21111",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:application-controller"
+        ],
+        "created_at": "2024-12-09T18:11:52Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "CLI: add possibility to diff the desired state instead of the live state",
+        "url": "https://github.com/argoproj/argo-cd/issues/21059",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:cli"
+        ],
+        "created_at": "2024-12-04T17:01:44Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "CLI app list should be able to filter based on a list of files",
+        "url": "https://github.com/argoproj/argo-cd/issues/21052",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:cli"
+        ],
+        "created_at": "2024-12-04T04:52:48Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Export metrics for a number of daily users (dau)",
+        "url": "https://github.com/argoproj/argo-cd/issues/20801",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:metrics"
+        ],
+        "created_at": "2024-11-14T20:56:13Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "[UI] Add a Diff button to the Apps on the home screen",
+        "url": "https://github.com/argoproj/argo-cd/issues/20696",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ui"
+        ],
+        "created_at": "2024-11-07T18:51:33Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Show last refresh time for applications",
+        "url": "https://github.com/argoproj/argo-cd/issues/20591",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ui"
+        ],
+        "created_at": "2024-10-30T05:33:43Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Hide author and comment for PRs under Sync Status and Last Sync or give such an option",
+        "url": "https://github.com/argoproj/argo-cd/issues/20586",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ui"
+        ],
+        "created_at": "2024-10-30T00:04:50Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Add additional capabilities to argocd-k8s-auth",
+        "url": "https://github.com/argoproj/argo-cd/issues/20582",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:logging"
+        ],
+        "created_at": "2024-10-29T20:04:40Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Make ArgoCD CLI login preserve the port forward arguments to not need to specify them when running other commands",
+        "url": "https://github.com/argoproj/argo-cd/issues/20565",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:cli"
+        ],
+        "created_at": "2024-10-28T19:40:26Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Provide client info in argocd server errors",
+        "url": "https://github.com/argoproj/argo-cd/issues/20388",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:server",
+            "component:logging",
+            "component:auth"
+        ],
+        "created_at": "2024-10-15T19:23:04Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "ApplicationSet hard to debug error with matrix generator with scmProvider and git when we have invalid yaml",
+        "url": "https://github.com/argoproj/argo-cd/issues/19982",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component:application-sets",
+            "version:2.11",
+            "component:appset/generator"
+        ],
+        "created_at": "2024-09-18T13:02:08Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Add warning log if ARGOCD_CONTROLLER_REPLICAS greater than configured replicas",
+        "url": "https://github.com/argoproj/argo-cd/issues/19928",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:application-controller"
+        ],
+        "created_at": "2024-09-13T08:02:27Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Improve rendering of unschedulable nodes",
+        "url": "https://github.com/argoproj/argo-cd/issues/19870",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ui"
+        ],
+        "created_at": "2024-09-10T20:48:46Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Make buttons in the UI looks more like clickable buttons rather than labels",
+        "url": "https://github.com/argoproj/argo-cd/issues/19698",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ui",
+            "type:design"
+        ],
+        "created_at": "2024-08-27T15:06:30Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "argocd.argoproj.io/auto-label-cluster-info doesn't work on eks clusters",
+        "url": "https://github.com/argoproj/argo-cd/issues/19385",
+        "labels": [
+            "bug",
+            "good first issue",
+            "version:2.11"
+        ],
+        "created_at": "2024-08-05T19:15:13Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "\"&\" string in valuesObject mess up PARAMETERS tab on argocd's web ui",
+        "url": "https://github.com/argoproj/argo-cd/issues/18632",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component:api",
+            "component:ui",
+            "version:2.11"
+        ],
+        "created_at": "2024-06-13T09:20:35Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Surface blog with (actual) release notes better",
+        "url": "https://github.com/argoproj/argo-cd/issues/18280",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:docs"
+        ],
+        "created_at": "2024-05-19T15:55:50Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Server command line option --request-timeout exists only in documentation in recent ArgoCD version and is not be used in the code",
+        "url": "https://github.com/argoproj/argo-cd/issues/18198",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component:server",
+            "component:docs",
+            "version:2.14"
+        ],
+        "created_at": "2024-05-13T15:15:58Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Add Argo CD dashboard back to the demo Grafana instance",
+        "url": "https://github.com/argoproj/argo-cd/issues/17922",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:metrics",
+            "component:grafana"
+        ],
+        "created_at": "2024-04-22T14:27:07Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Notifications templates/trigger documentation does not specify field content",
+        "url": "https://github.com/argoproj/argo-cd/issues/17628",
+        "labels": [
+            "bug",
+            "good first issue",
+            "triage/pending",
+            "component:notifications",
+            "version:2.13"
+        ],
+        "created_at": "2024-03-26T17:14:20Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Improve timeout message for `argocd app wait`",
+        "url": "https://github.com/argoproj/argo-cd/issues/14705",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:cli"
+        ],
+        "created_at": "2023-07-25T13:19:31Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Optionally add `app.kubernetes.io/managed-by` label to all resources",
+        "url": "https://github.com/argoproj/argo-cd/issues/14638",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2023-07-21T13:33:44Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "ArogCD Notifications feature parity with FluxCD (v2) for Slack",
+        "url": "https://github.com/argoproj/argo-cd/issues/14226",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2023-06-27T13:49:32Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Rework Credentials template url layout in Settings: Repositories",
+        "url": "https://github.com/argoproj/argo-cd/issues/12273",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:ui"
+        ],
+        "created_at": "2023-02-03T05:31:18Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "title": "Ingress link is not handled correctly if path: contains regex",
+        "url": "https://github.com/argoproj/argo-cd/issues/12254",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component:ui",
+            "bug/priority:low"
+        ],
+        "created_at": "2023-02-02T10:08:00Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Add an option in kustomize lib to suppress the deprecation warnings.",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5452",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/feature",
+            "needs-triage"
+        ],
+        "created_at": "2023-11-16T17:48:12Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Custom Resources with a Kind Ending in \"List\" are Silently Ignored",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5042",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/bug",
+            "triage/accepted"
+        ],
+        "created_at": "2023-02-09T01:47:05Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "kustomize edit set image should correctly parse both tag and digest",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4713",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/bug",
+            "triage/accepted"
+        ],
+        "created_at": "2022-07-15T19:00:17Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "HelmChartInflationGenerator ignores releaseNamespace ",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4593",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/bug",
+            "needs-triage"
+        ],
+        "created_at": "2022-04-20T08:53:59Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "\"kustomize edit set image\" is too opinionated about the formatting and moves comments around",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4481",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/bug",
+            "lifecycle/frozen",
+            "triage/accepted"
+        ],
+        "created_at": "2022-02-21T10:49:29Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Consolidate kustomize documentation",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4338",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/documentation",
+            "triage/accepted"
+        ],
+        "created_at": "2021-12-09T22:41:57Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "ConfigMaps items are generated with random order",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4292",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/feature",
+            "triage/accepted"
+        ],
+        "created_at": "2021-11-16T13:42:46Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Replacements: better support for targeting `--key=value` container `args`",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4080",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/feature",
+            "lifecycle/frozen"
+        ],
+        "created_at": "2021-07-23T20:05:21Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "kyaml should implement KRM Functions Spec v1",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4024",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "lifecycle/frozen",
+            "kind/cleanup",
+            "needs-triage"
+        ],
+        "created_at": "2021-06-30T19:35:45Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "No docs for `ReplacementTransformer`",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5812",
+        "labels": [
+            "help wanted",
+            "kind/documentation",
+            "lifecycle/stale",
+            "triage/accepted"
+        ],
+        "created_at": "2024-11-25T09:01:43Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Document KUSTOMIZE_PLUGIN_HOME",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5706",
+        "labels": [
+            "help wanted",
+            "kind/documentation",
+            "lifecycle/frozen",
+            "triage/accepted"
+        ],
+        "created_at": "2024-05-23T08:51:41Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Remove duplicate label behavior: commonLabels vs labels.includeSelectors",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5436",
+        "labels": [
+            "help wanted",
+            "kind/deprecation",
+            "triage/accepted"
+        ],
+        "created_at": "2023-11-10T23:34:04Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Prioritize friction with migration from deprecated fields to new fields.",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/5122",
+        "labels": [
+            "help wanted",
+            "needs-kind",
+            "needs-triage",
+            "area/api"
+        ],
+        "created_at": "2023-04-11T19:14:59Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "kustomize edit add replacement",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4679",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "needs-triage"
+        ],
+        "created_at": "2022-06-15T12:28:42Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "ConfigMap generated hashes don't get replaced when using replacements",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4475",
+        "labels": [
+            "help wanted",
+            "lifecycle/rotten",
+            "kind/bug",
+            "triage/under-consideration"
+        ],
+        "created_at": "2022-02-15T10:36:11Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Regression: Resource with generateName builds with 4.1.1, fails with anything later",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4224",
+        "labels": [
+            "help wanted",
+            "kind/regression",
+            "needs-triage"
+        ],
+        "created_at": "2021-10-05T14:57:01Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "install_kustomize.sh returns `Version vX.X.X does not exist` for non module versions.",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4130",
+        "labels": [
+            "help wanted",
+            "lifecycle/rotten",
+            "kind/bug",
+            "needs-triage"
+        ],
+        "created_at": "2021-08-20T12:40:10Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Fix breaking api tests on windows",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/4001",
+        "labels": [
+            "help wanted",
+            "lifecycle/frozen",
+            "priority/important-longterm",
+            "kind/test-coverage",
+            "triage/accepted",
+            "area/api"
+        ],
+        "created_at": "2021-06-16T21:27:57Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Improve docs for getting started with Kustomize",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/3973",
+        "labels": [
+            "help wanted",
+            "kind/documentation",
+            "needs-triage"
+        ],
+        "created_at": "2021-06-09T18:56:14Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "kustomize edit set label",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/3866",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "triage/accepted"
+        ],
+        "created_at": "2021-05-03T08:31:43Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Add documentation for kustomize commands",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/3464",
+        "labels": [
+            "help wanted",
+            "kind/documentation",
+            "lifecycle/rotten",
+            "lifecycle/frozen",
+            "needs-triage"
+        ],
+        "created_at": "2021-01-15T02:13:22Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "Add a set of performance benchmark",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/3248",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "lifecycle/frozen",
+            "area/kyaml",
+            "kind/regression",
+            "needs-triage",
+            "area/cli"
+        ],
+        "created_at": "2020-11-18T21:20:51Z"
+    },
+    {
+        "repo": "kubernetes-sigs/kustomize",
+        "title": "globbing/wildcards in \"resources\" field",
+        "url": "https://github.com/kubernetes-sigs/kustomize/issues/119",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "lifecycle/frozen",
+            "needs-triage"
+        ],
+        "created_at": "2018-06-18T19:46:30Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "New watcher wait strategy lacking SDK logging",
+        "url": "https://github.com/helm/helm/issues/31585",
+        "labels": [
+            "feature",
+            "good first issue"
+        ],
+        "created_at": "2025-11-27T05:15:12Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Helm 3.19 crashes with a nil pointer dereference",
+        "url": "https://github.com/helm/helm/issues/31552",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2025-11-21T09:49:32Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Display oci annotations or created date if annotation exists in helm show chart command",
+        "url": "https://github.com/helm/helm/issues/30787",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open",
+            "good first issue",
+            "Stale"
+        ],
+        "created_at": "2025-04-22T19:28:16Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "broken naming/rendering of aliased subcharts",
+        "url": "https://github.com/helm/helm/issues/11484",
+        "labels": [
+            "in progress",
+            "bug",
+            "good first issue",
+            "unconfirmed"
+        ],
+        "created_at": "2022-10-28T19:15:21Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Shared action configs changed if install action runs with ClientOnly flagged",
+        "url": "https://github.com/helm/helm/issues/11463",
+        "labels": [
+            "help wanted",
+            "keep open",
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2022-10-22T06:20:44Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Helm supports unix style path in HELM_PLUGINS for loading, but fails when installing new plugins",
+        "url": "https://github.com/helm/helm/issues/11310",
+        "labels": [
+            "help wanted",
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2022-09-08T16:01:46Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Unclear error about \"table\" destination",
+        "url": "https://github.com/helm/helm/issues/11118",
+        "labels": [
+            "docs",
+            "keep open",
+            "good first issue"
+        ],
+        "created_at": "2022-07-06T18:01:53Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "helm lint misses bad chart names",
+        "url": "https://github.com/helm/helm/issues/10537",
+        "labels": [
+            "feature",
+            "keep open",
+            "good first issue"
+        ],
+        "created_at": "2022-01-10T20:53:26Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Feature request: `helm dependency update --untar`",
+        "url": "https://github.com/helm/helm/issues/8479",
+        "labels": [
+            "feature",
+            "good first issue",
+            "Stale"
+        ],
+        "created_at": "2020-07-17T21:36:06Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Errors on \"helm list\" AND \"helm install\"",
+        "url": "https://github.com/helm/helm/issues/7997",
+        "labels": [
+            "help wanted",
+            "feature",
+            "in progress",
+            "good first issue"
+        ],
+        "created_at": "2020-04-25T18:05:37Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Getting `panic: failed to create default capabilities` when building with Bazel",
+        "url": "https://github.com/helm/helm/issues/31904",
+        "labels": [
+            "help wanted",
+            "feature"
+        ],
+        "created_at": "2026-03-05T15:53:08Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Provenance file chart.yaml doesn't match the source",
+        "url": "https://github.com/helm/helm/issues/31866",
+        "labels": [
+            "help wanted",
+            "bug",
+            "v4.x"
+        ],
+        "created_at": "2026-02-26T12:37:00Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Breaking change to helm list cli command in v4",
+        "url": "https://github.com/helm/helm/issues/31784",
+        "labels": [
+            "help wanted",
+            "feature",
+            "Stale"
+        ],
+        "created_at": "2026-02-03T00:41:27Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Avoid using and setting a global slog",
+        "url": "https://github.com/helm/helm/issues/31724",
+        "labels": [
+            "help wanted",
+            "keep open"
+        ],
+        "created_at": "2026-01-13T15:52:03Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Show if more search results are present",
+        "url": "https://github.com/helm/helm/issues/31617",
+        "labels": [
+            "help wanted",
+            "feature"
+        ],
+        "created_at": "2025-12-08T07:19:32Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "duplicate env vars are now treated as errors in helm v4",
+        "url": "https://github.com/helm/helm/issues/31529",
+        "labels": [
+            "help wanted",
+            "question/support",
+            "feature"
+        ],
+        "created_at": "2025-11-18T15:47:29Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Helm4 upgrade with dry-run and server-side enabled doesn't catch errors",
+        "url": "https://github.com/helm/helm/issues/31505",
+        "labels": [
+            "help wanted",
+            "feature"
+        ],
+        "created_at": "2025-11-13T20:29:58Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "TestUserAgentHeaderInK8sRESTClientConfig appears to fail when you have a bad .kube/config",
+        "url": "https://github.com/helm/helm/issues/31470",
+        "labels": [
+            "help wanted",
+            "bug"
+        ],
+        "created_at": "2025-11-09T13:30:26Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Add support for SOURCE_DATE_EPOCH in reproducible builds",
+        "url": "https://github.com/helm/helm/issues/31439",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open"
+        ],
+        "created_at": "2025-10-29T17:14:15Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Remove work-arounds once oras-go creates patch release",
+        "url": "https://github.com/helm/helm/issues/31386",
+        "labels": [
+            "help wanted",
+            "keep open"
+        ],
+        "created_at": "2025-10-13T14:57:17Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "`helm package` clobbers subcharts with different aliases and versions",
+        "url": "https://github.com/helm/helm/issues/30821",
+        "labels": [
+            "help wanted",
+            "bug"
+        ],
+        "created_at": "2025-05-01T13:41:41Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Add support for `org.opencontainers.image.revision` OCI annotation/label",
+        "url": "https://github.com/helm/helm/issues/30732",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open"
+        ],
+        "created_at": "2025-04-08T09:56:02Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "incorrect arg parsing with helm plugins",
+        "url": "https://github.com/helm/helm/issues/13686",
+        "labels": [
+            "help wanted",
+            "bug"
+        ],
+        "created_at": "2025-01-29T19:52:45Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Helm session HTTP header",
+        "url": "https://github.com/helm/helm/issues/13182",
+        "labels": [
+            "help wanted",
+            "feature"
+        ],
+        "created_at": "2024-07-16T08:42:33Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Missing docs on ownership annotations",
+        "url": "https://github.com/helm/helm/issues/12869",
+        "labels": [
+            "help wanted",
+            "docs",
+            "keep open"
+        ],
+        "created_at": "2024-03-12T09:09:41Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "There is no specific functionality just to check the objects that are deployed as part of helm",
+        "url": "https://github.com/helm/helm/issues/12722",
+        "labels": [
+            "help wanted",
+            "feature",
+            "in progress"
+        ],
+        "created_at": "2024-01-17T11:18:08Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Print waiting message when --wait is used for install/upgrade",
+        "url": "https://github.com/helm/helm/issues/12710",
+        "labels": [
+            "help wanted",
+            "feature",
+            "v4.x"
+        ],
+        "created_at": "2024-01-12T11:19:17Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Create ServiceAccountToken Template",
+        "url": "https://github.com/helm/helm/issues/12693",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open"
+        ],
+        "created_at": "2024-01-08T19:05:54Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Surprising behavior of dependencies.condition",
+        "url": "https://github.com/helm/helm/issues/12264",
+        "labels": [
+            "help wanted",
+            "feature",
+            "v4.x"
+        ],
+        "created_at": "2023-08-01T16:57:38Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Helm error message can leak sensitive data such as credentials on upgrade error",
+        "url": "https://github.com/helm/helm/issues/12176",
+        "labels": [
+            "help wanted",
+            "feature",
+            "in progress"
+        ],
+        "created_at": "2023-07-02T10:03:15Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Cannot add plugins with git fsmonitor daemon enabled",
+        "url": "https://github.com/helm/helm/issues/12125",
+        "labels": [
+            "help wanted",
+            "feature",
+            "in progress"
+        ],
+        "created_at": "2023-06-07T21:59:36Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Feature: Support `--output json` flag for `helm push`",
+        "url": "https://github.com/helm/helm/issues/11735",
+        "labels": [
+            "help wanted",
+            "feature"
+        ],
+        "created_at": "2023-01-17T10:01:42Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "[FEATURE] helm dependency check-updates",
+        "url": "https://github.com/helm/helm/issues/11406",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open"
+        ],
+        "created_at": "2022-10-03T11:52:11Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Wrong warning message when coalescing values for a subchart that contains subchart",
+        "url": "https://github.com/helm/helm/issues/11251",
+        "labels": [
+            "help wanted",
+            "bug"
+        ],
+        "created_at": "2022-08-19T13:12:15Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "`helm search repo chart <oci-repo/oci-chart>` --versions for OCI",
+        "url": "https://github.com/helm/helm/issues/11000",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open",
+            "oci"
+        ],
+        "created_at": "2022-05-27T11:38:23Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Creating a CronJob with PVC and a WaitForFirstConsumer SC times out",
+        "url": "https://github.com/helm/helm/issues/10733",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open"
+        ],
+        "created_at": "2022-03-07T13:51:22Z"
+    },
+    {
+        "repo": "helm/helm",
+        "title": "Helm pre-delete hooks Remove Chart Metadata on Failure",
+        "url": "https://github.com/helm/helm/issues/9700",
+        "labels": [
+            "help wanted",
+            "keep open",
+            "bug"
+        ],
+        "created_at": "2021-05-14T21:05:08Z"
+    },
+    {
+        "repo": "fluent/fluentd",
+        "title": "System config: add umask option",
+        "url": "https://github.com/fluent/fluentd/issues/4816",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2025-02-03T02:31:29Z"
+    },
+    {
+        "repo": "fluent/fluentd",
+        "title": "emit warning along with unmatched line",
+        "url": "https://github.com/fluent/fluentd/issues/3501",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2021-09-09T15:11:21Z"
+    },
+    {
+        "repo": "fluent/fluentd",
+        "title": "File permissions can't have full accesss",
+        "url": "https://github.com/fluent/fluentd/issues/4810",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2025-01-30T09:05:37Z"
+    },
+    {
+        "repo": "fluent/fluentd",
+        "title": "Buffer size metrics showing negative values",
+        "url": "https://github.com/fluent/fluentd/issues/5303",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2020-09-24T21:15:50Z"
+    }
+]

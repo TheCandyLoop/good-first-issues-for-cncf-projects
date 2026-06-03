@@ -5,6 +5,14 @@ on:
     - cron: '0 0 * * *' # Runs daily at midnight UTC
   workflow_dispatch: # Allows you to trigger it manually from GitHub
 
+# 1. FIXES THE NODE.JS WARNING
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+
+# 2. FIXES ERROR 128 (Allows the bot to push code)
+permissions:
+  contents: write 
+
 jobs:
   update-data:
     runs-on: ubuntu-latest

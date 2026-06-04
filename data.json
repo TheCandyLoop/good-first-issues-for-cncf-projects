@@ -2521,6 +2521,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Auto-close sidebar after search in mobile view",
+        "url": "https://github.com/meshery/meshery/issues/19880",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-04T14:47:05Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Add a glossary page for common Meshery terms",
         "url": "https://github.com/meshery/meshery/issues/19775",
         "labels": [
@@ -2673,20 +2687,6 @@
             "framework/react"
         ],
         "created_at": "2026-05-08T21:40:21Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Fix low text contrast issue on Community category page ",
-        "url": "https://github.com/meshery/meshery/issues/19158",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-07T18:54:27Z"
     },
     {
         "repo": "meshery/meshery",
@@ -9099,6 +9099,38 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[BACKPORT][v1.12.1][IMPROVEMENT]  Add metrics to collect information about LONGHORN_DISTRO",
+        "url": "https://github.com/longhorn/longhorn/issues/13253",
+        "labels": [
+            "good first issue",
+            "priority/0",
+            "require/manual-test-plan",
+            "area/monitoring",
+            "kind/backport",
+            "kind/improvement"
+        ],
+        "created_at": "2026-06-02T06:41:03Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[IMPROVEMENT]  Add metrics to collect information about LONGHORN_DISTRO",
+        "url": "https://github.com/longhorn/longhorn/issues/13252",
+        "labels": [
+            "good first issue",
+            "priority/0",
+            "require/manual-test-plan",
+            "area/monitoring",
+            "kind/improvement",
+            "backport/1.12.1"
+        ],
+        "created_at": "2026-06-02T06:40:05Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[IMPROVEMENT] Add metrics to collect information about V2 data engine usage",
         "url": "https://github.com/longhorn/longhorn/issues/12941",
         "labels": [
@@ -9107,7 +9139,8 @@
             "area/monitoring",
             "kind/improvement",
             "area/v2-data-engine",
-            "require/backport"
+            "require/backport",
+            "backport/1.12.1"
         ],
         "created_at": "2026-04-16T00:27:51Z"
     },
@@ -9559,39 +9592,6 @@
             "require/important-note"
         ],
         "created_at": "2022-12-08T02:24:38Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
-        "title": "[IMPROVEMENT] Allow customizing the backup target access option",
-        "url": "https://github.com/longhorn/longhorn/issues/4899",
-        "labels": [
-            "good first issue",
-            "component/longhorn-manager",
-            "priority/0",
-            "area/volume-backup-restore",
-            "kind/improvement"
-        ],
-        "created_at": "2022-11-18T05:03:58Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
-        "title": "[IMPROVEMENT]  staleReplicaTimeout configurable during the chart install/upgrade",
-        "url": "https://github.com/longhorn/longhorn/issues/4542",
-        "labels": [
-            "good first issue",
-            "component/longhorn-manager",
-            "area/install-uninstall-upgrade",
-            "priority/0",
-            "require/doc",
-            "kind/improvement",
-            "area/setting",
-            "require/important-note"
-        ],
-        "created_at": "2022-09-12T08:20:20Z"
     },
     {
         "repo": "openebs/openebs",
@@ -10129,6 +10129,30 @@
         "repo": "hyperlight-dev/hyperlight",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "Enable all memory guard page tests on windows",
+        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1508",
+        "labels": [
+            "good first issue",
+            "lifecycle/needs-review"
+        ],
+        "created_at": "2026-06-04T16:45:41Z"
+    },
+    {
+        "repo": "hyperlight-dev/hyperlight",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "Guard test fails on windows CI",
+        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1507",
+        "labels": [
+            "good first issue",
+            "lifecycle/needs-review"
+        ],
+        "created_at": "2026-06-04T16:22:44Z"
+    },
+    {
+        "repo": "hyperlight-dev/hyperlight",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "Implement Additional tests for Guest Mapping",
         "url": "https://github.com/hyperlight-dev/hyperlight/issues/1131",
         "labels": [
@@ -10148,19 +10172,6 @@
             "lifecycle/confirmed"
         ],
         "created_at": "2025-12-08T11:03:48Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Use `tracing` crate instead of `log` to create logs",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1028",
-        "labels": [
-            "good first issue",
-            "area/testing",
-            "area/infrastructure"
-        ],
-        "created_at": "2025-11-19T13:26:38Z"
     },
     {
         "repo": "hyperlight-dev/hyperlight",
@@ -14358,7 +14369,7 @@
             "sig/network",
             "area/kube-proxy",
             "help wanted",
-            "needs-triage"
+            "triage/accepted"
         ],
         "created_at": "2026-05-27T14:22:32Z"
     },
@@ -15428,18 +15439,6 @@
             "help wanted"
         ],
         "created_at": "2022-07-29T18:59:04Z"
-    },
-    {
-        "repo": "etcd-io/etcd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Bump go 1.26.3 and 1.25.10",
-        "url": "https://github.com/etcd-io/etcd/issues/21725",
-        "labels": [
-            "type/feature",
-            "good first issue"
-        ],
-        "created_at": "2026-05-08T11:25:29Z"
     },
     {
         "repo": "etcd-io/etcd",

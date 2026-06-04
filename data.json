@@ -5856,6 +5856,18 @@
         "repo": "kubearmor/kubearmor",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "feat: add karmor simulate \u2014 policy dry-run / impact simulation mode",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2589",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-05-10T18:18:33Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Snitch Job should respect globalNodeSelector configuration",
         "url": "https://github.com/kubearmor/KubeArmor/issues/2469",
         "labels": [
@@ -5936,18 +5948,6 @@
             "good first issue"
         ],
         "created_at": "2023-11-22T15:25:22Z"
-    },
-    {
-        "repo": "kubearmor/kubearmor",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Move from ubuntu-20.04 to ubuntu-22.04 GitHub Actions runners",
-        "url": "https://github.com/kubearmor/KubeArmor/issues/1433",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2023-09-22T19:37:09Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -6049,18 +6049,6 @@
             "hacktoberfest"
         ],
         "created_at": "2022-09-18T12:01:14Z"
-    },
-    {
-        "repo": "kubearmor/kubearmor",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "GH action to test Kubearmor in systemd mode",
-        "url": "https://github.com/kubearmor/KubeArmor/issues/638",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2022-03-03T04:57:47Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -15282,6 +15270,20 @@
             "priority/important-soon"
         ],
         "created_at": "2023-04-01T08:16:52Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Publish signed Volcano release artifacts and provenance",
+        "url": "https://github.com/volcano-sh/volcano/issues/5376",
+        "labels": [
+            "help wanted",
+            "area/deploy",
+            "area/security",
+            "area/ci"
+        ],
+        "created_at": "2026-06-04T07:43:04Z"
     },
     {
         "repo": "volcano-sh/volcano",

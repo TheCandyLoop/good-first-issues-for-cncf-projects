@@ -2113,21 +2113,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Make ROADMAP.md Chronologically Reverse",
-        "url": "https://github.com/meshery/meshery/issues/19815",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-01T12:00:11Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Optimize deployment preview pruning with sparse checkout",
         "url": "https://github.com/meshery/meshery/issues/19678",
         "labels": [
@@ -2515,6 +2500,22 @@
             "type/visual-design"
         ],
         "created_at": "2024-10-28T14:37:00Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a AWS architecture template",
+        "url": "https://github.com/meshery/meshery/issues/12500",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:33:32Z"
     },
     {
         "repo": "meshery/meshery",
@@ -3590,7 +3591,6 @@
         "url": "https://github.com/goharbor/harbor/issues/22793",
         "labels": [
             "help wanted",
-            "Stale",
             "icebox"
         ],
         "created_at": "2026-02-01T19:36:54Z"
@@ -5582,6 +5582,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Account Console v3: Cannot revoke consent for clients with URL-based or special character clientIds (Regression of #19515)",
+        "url": "https://github.com/keycloak/keycloak/issues/48456",
+        "labels": [
+            "kind/bug",
+            "area/account/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-04-24T10:00:43Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "No information in log by subject confirmation validation after commit f0381f8482272698264d8951705f61c5f9c09fba",
         "url": "https://github.com/keycloak/keycloak/issues/48417",
         "labels": [
@@ -5715,24 +5733,6 @@
             "team/core-authn"
         ],
         "created_at": "2026-04-07T09:17:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Admin API returns 500 error when updating many SCOPE_MAPPINGs at once",
-        "url": "https://github.com/keycloak/keycloak/issues/47783",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-clients",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-04-06T18:46:39Z"
     },
     {
         "repo": "keylime/keylime",
@@ -24721,18 +24721,6 @@
             "Type/Improvement"
         ],
         "created_at": "2026-03-30T06:00:02Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Mismatch in PDB Selectors Blocks Cluster Upgrades",
-        "url": "https://github.com/openchoreo/openchoreo/issues/2975",
-        "labels": [
-            "good first issue",
-            "Type/Bug"
-        ],
-        "created_at": "2026-03-27T14:01:28Z"
     },
     {
         "repo": "openchoreo/openchoreo",

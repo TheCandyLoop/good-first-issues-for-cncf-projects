@@ -8625,19 +8625,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Use  `SO_PEERPIDFD` and `GetUnitByPIDFD()` instead of `GetUnitByPID` for `systemd` workload attestation for less roundtrips to dbus and no race conditions and more unique identity",
-        "url": "https://github.com/spiffe/spire/issues/6035",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2025-04-28T09:39:10Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Add integration test for external plugins",
         "url": "https://github.com/spiffe/spire/issues/5902",
         "labels": [
@@ -8645,20 +8632,6 @@
             "priority/backlog"
         ],
         "created_at": "2025-02-26T19:54:51Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Want to work with CNCF Supply Chain Security WG to make SPIRE an example of best practice?",
-        "url": "https://github.com/spiffe/spire/issues/5783",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "unscoped",
-            "stale"
-        ],
-        "created_at": "2025-01-16T13:24:56Z"
     },
     {
         "repo": "spiffe/spire",
@@ -8818,6 +8791,30 @@
             "priority/backlog"
         ],
         "created_at": "2023-06-29T20:52:04Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Migrate from HCL1 to HCL2",
+        "url": "https://github.com/spiffe/spire/issues/4042",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2023-04-03T18:12:43Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Proposed Bundle Publisher destinations and formats",
+        "url": "https://github.com/spiffe/spire/issues/4034",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2023-03-30T19:41:49Z"
     },
     {
         "repo": "carina-io/carina",
@@ -15441,6 +15438,20 @@
             "backport/v3.6"
         ],
         "created_at": "2025-10-05T16:59:57Z"
+    },
+    {
+        "repo": "etcd-io/etcd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Bump `go.opentelemetry.io/otel` to 1.41.0",
+        "url": "https://github.com/etcd-io/etcd/issues/21917",
+        "labels": [
+            "help wanted",
+            "area/security",
+            "release/v3.6",
+            "release/v3.5"
+        ],
+        "created_at": "2026-06-05T23:27:11Z"
     },
     {
         "repo": "etcd-io/etcd",
@@ -22099,19 +22110,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Breaking change to helm list cli command in v4",
-        "url": "https://github.com/helm/helm/issues/31784",
-        "labels": [
-            "help wanted",
-            "feature",
-            "Stale"
-        ],
-        "created_at": "2026-02-03T00:41:27Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Avoid using and setting a global slog",
         "url": "https://github.com/helm/helm/issues/31724",
         "labels": [
@@ -22141,7 +22139,8 @@
         "labels": [
             "help wanted",
             "question/support",
-            "feature"
+            "feature",
+            "Stale"
         ],
         "created_at": "2025-11-18T15:47:29Z"
     },
@@ -22411,6 +22410,19 @@
             "bug"
         ],
         "created_at": "2021-05-14T21:05:08Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Respect helm.sh/resource-policy annotation of remote resource",
+        "url": "https://github.com/helm/helm/issues/8132",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open"
+        ],
+        "created_at": "2020-05-15T02:42:48Z"
     },
     {
         "repo": "ko-build/ko",

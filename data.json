@@ -3909,7 +3909,8 @@
         "labels": [
             "good first issue",
             "data-addition",
-            "module:AWS"
+            "module:AWS",
+            "keep fresh"
         ],
         "created_at": "2026-01-22T23:48:44Z"
     },
@@ -3931,12 +3932,13 @@
         "repo": "cartography-cncf/cartography",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "[Feature request] O365 Integration",
+        "title": "feat(microsoft): add o365 Integration",
         "url": "https://github.com/cartography-cncf/cartography/issues/1489",
         "labels": [
             "help wanted",
             "good first issue",
-            "data-addition"
+            "data-addition",
+            "module:Microsoft"
         ],
         "created_at": "2025-03-20T14:51:03Z"
     },
@@ -3944,7 +3946,7 @@
         "repo": "cartography-cncf/cartography",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "Missing Assets/Resource",
+        "title": "AWS missing Assets/Resource",
         "url": "https://github.com/cartography-cncf/cartography/issues/1477",
         "labels": [
             "help wanted",
@@ -3972,12 +3974,13 @@
         "repo": "cartography-cncf/cartography",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "[FeatureRequest] Adding the ability to map WAF/WebACL with AWS",
+        "title": "feat(aws): Adding the ability to map WAF/WebACL with AWS",
         "url": "https://github.com/cartography-cncf/cartography/issues/1067",
         "labels": [
             "good first issue",
             "data-addition",
-            "module:AWS"
+            "module:AWS",
+            "keep fresh"
         ],
         "created_at": "2022-12-31T10:36:52Z"
     },
@@ -3985,7 +3988,7 @@
         "repo": "cartography-cncf/cartography",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "Support Gcp App Engine",
+        "title": "feat(gcp): support Gcp App Engine",
         "url": "https://github.com/cartography-cncf/cartography/issues/882",
         "labels": [
             "help wanted",
@@ -3999,7 +4002,7 @@
         "repo": "cartography-cncf/cartography",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "Represent S3 bucket policies in the graph",
+        "title": "feat: represent S3 bucket policies in the graph",
         "url": "https://github.com/cartography-cncf/cartography/issues/759",
         "labels": [
             "help wanted",
@@ -9105,7 +9108,10 @@
             "require/manual-test-plan",
             "area/monitoring",
             "kind/improvement",
-            "backport/1.12.1"
+            "backport/1.10.4",
+            "backport/1.11.3",
+            "backport/1.12.1",
+            "backport/1.9.6"
         ],
         "created_at": "2026-06-02T06:40:05Z"
     },
@@ -23470,18 +23476,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Tooltip appears when unexpected if used with multiple DropdownMenus",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/13749",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2025-08-28T20:58:59Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "refactor(ProviderRegistry): `getMatchingConnectionFromProvider` should not have fallback condition",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/13530",
         "labels": [
@@ -24796,6 +24790,18 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Make gatewayClassName configurable across all plane Helm charts",
+        "url": "https://github.com/openchoreo/openchoreo/issues/3700",
+        "labels": [
+            "good first issue",
+            "Type/NewFeature"
+        ],
+        "created_at": "2026-06-04T09:27:17Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Incident details page: missing component link and empty actions column",
         "url": "https://github.com/openchoreo/openchoreo/issues/3447",
         "labels": [
@@ -24897,22 +24903,6 @@
             "area/ui"
         ],
         "created_at": "2025-07-30T05:30:46Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Implement a proper configuration system across components",
-        "url": "https://github.com/openchoreo/openchoreo/issues/275",
-        "labels": [
-            "good first issue",
-            "Type/Improvement",
-            "Priority/High",
-            "area/core",
-            "[deprecated]area/openchoreo-api",
-            "area/observability"
-        ],
-        "created_at": "2025-07-08T09:30:23Z"
     },
     {
         "repo": "openkruise/kruise",

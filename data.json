@@ -3904,19 +3904,6 @@
         "repo": "cartography-cncf/cartography",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "feat(aws): Add support for Add CloudFormation Stack",
-        "url": "https://github.com/cartography-cncf/cartography/issues/2265",
-        "labels": [
-            "good first issue",
-            "data-addition",
-            "module:AWS"
-        ],
-        "created_at": "2026-01-22T23:54:46Z"
-    },
-    {
-        "repo": "cartography-cncf/cartography",
-        "tier": "Sandbox",
-        "lang": "Python",
         "title": "feat(aws): Add support for AppRunner",
         "url": "https://github.com/cartography-cncf/cartography/issues/2264",
         "labels": [
@@ -9671,19 +9658,6 @@
             "good-first-issue"
         ],
         "created_at": "2026-03-30T13:29:39Z"
-    },
-    {
-        "repo": "rook/rook",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Report if an OSD ID is detected multiple times",
-        "url": "https://github.com/rook/rook/issues/17239",
-        "labels": [
-            "bug",
-            "wontfix",
-            "good-first-issue"
-        ],
-        "created_at": "2026-03-24T12:19:21Z"
     },
     {
         "repo": "rook/rook",

@@ -9639,7 +9639,6 @@
         "url": "https://github.com/rook/rook/issues/17239",
         "labels": [
             "bug",
-            "wontfix",
             "good-first-issue"
         ],
         "created_at": "2026-03-24T12:19:21Z"
@@ -9668,20 +9667,6 @@
             "good-first-issue"
         ],
         "created_at": "2025-02-27T08:14:44Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Restore validation should reject restores from backups in Deleting phase",
-        "url": "https://github.com/velero-io/velero/issues/9790",
-        "labels": [
-            "Enhancement/User",
-            "Good first issue",
-            "Restore",
-            "Needs triage"
-        ],
-        "created_at": "2026-05-14T01:18:33Z"
     },
     {
         "repo": "velero-io/velero",
@@ -10991,7 +10976,6 @@
         "labels": [
             "Good First Issue",
             "kind/feature",
-            "stale-issue",
             "triaged"
         ],
         "created_at": "2026-04-27T08:06:04Z"
@@ -12149,18 +12133,6 @@
         "repo": "ovn-kubernetes/ovn-kubernetes",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "libovsdb/ops: Consolidate ovs sub-package into ops package",
-        "url": "https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6188",
-        "labels": [
-            "good first issue",
-            "lifecycle/stale"
-        ],
-        "created_at": "2026-03-31T17:00:02Z"
-    },
-    {
-        "repo": "ovn-kubernetes/ovn-kubernetes",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "no space left on device",
         "url": "https://github.com/ovn-kubernetes/ovn-kubernetes/issues/5357",
         "labels": [
@@ -13289,6 +13261,7 @@
         "labels": [
             "bug",
             "good first issue",
+            "Stale",
             "component/autopilot"
         ],
         "created_at": "2025-11-28T15:23:48Z"
@@ -23996,18 +23969,6 @@
             "stale"
         ],
         "created_at": "2026-01-09T11:02:04Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Formating output of `oras manifest fetch` with go-templates doesn't work on all fields",
-        "url": "https://github.com/oras-project/oras/issues/1947",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-12-17T17:39:04Z"
     },
     {
         "repo": "oras-project/oras",

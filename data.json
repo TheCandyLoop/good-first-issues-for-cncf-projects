@@ -4985,7 +4985,7 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "lifecycle/stale"
+            "lifecycle/rotten"
         ],
         "created_at": "2025-07-09T10:59:23Z"
     },
@@ -5266,8 +5266,6 @@
             "area/admin/api",
             "help wanted",
             "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
             "priority/normal"
         ],
         "created_at": "2026-06-04T00:33:01Z"
@@ -6223,18 +6221,6 @@
         "created_at": "2023-04-20T11:08:31Z"
     },
     {
-        "repo": "kubescape/kubescape",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "kubescape and harbor integration",
-        "url": "https://github.com/kubescape/kubescape/issues/1818",
-        "labels": [
-            "feature",
-            "help wanted"
-        ],
-        "created_at": "2025-04-08T16:11:44Z"
-    },
-    {
         "repo": "kubewarden/kubewarden-controller",
         "tier": "Sandbox",
         "lang": "Rust",
@@ -6767,6 +6753,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Bug]: oauth2-proxy --version not showing version number",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3451",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-06-09T11:52:28Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Documentation]: Very unclear nginx example for 4kb cookie",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3448",
         "labels": [
@@ -6786,18 +6784,6 @@
             "help wanted"
         ],
         "created_at": "2026-06-02T13:06:06Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: Go stdlib vulnerabilities and x/crypto library vulnerabilities",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3443",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-06-01T07:25:10Z"
     },
     {
         "repo": "oauth2-proxy/oauth2-proxy",
@@ -15719,42 +15705,6 @@
         "created_at": "2021-02-09T15:24:19Z"
     },
     {
-        "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Improve helm chart for klusterlet",
-        "url": "https://github.com/open-cluster-management-io/ocm/issues/1510",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-05-05T13:57:11Z"
-    },
-    {
-        "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "CI Checks Flaky Error",
-        "url": "https://github.com/open-cluster-management-io/ocm/issues/1402",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2026-02-26T02:29:35Z"
-    },
-    {
-        "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "configurable healthcheck process port in klusterlet",
-        "url": "https://github.com/open-cluster-management-io/ocm/issues/1032",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2025-06-11T09:02:37Z"
-    },
-    {
         "repo": "OpenFunction/OpenFunction",
         "tier": "Sandbox",
         "lang": "Go",
@@ -18854,7 +18804,8 @@
         "url": "https://github.com/kgateway-dev/kgateway/issues/10291",
         "labels": [
             "Type: Tech Debt",
-            "Good First Issue"
+            "Good First Issue",
+            "stale"
         ],
         "created_at": "2024-11-07T16:06:22Z"
     },
@@ -18936,6 +18887,19 @@
             "help wanted"
         ],
         "created_at": "2025-04-10T13:16:30Z"
+    },
+    {
+        "repo": "kuadrant/kuadrant-operator",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Sanitize user-supplied values in extension CEL predicates",
+        "url": "https://github.com/Kuadrant/kuadrant-operator/issues/2036",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "feat/extensions"
+        ],
+        "created_at": "2026-06-09T13:30:23Z"
     },
     {
         "repo": "kuadrant/kuadrant-operator",
@@ -21416,36 +21380,6 @@
             "needs:triage"
         ],
         "created_at": "2026-02-08T15:03:35Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Add more examples for filtering ActionsService actions",
-        "url": "https://github.com/backstage/backstage/issues/32718",
-        "labels": [
-            "good first issue",
-            "stale",
-            "domain:docs",
-            "needs:triage",
-            "area:framework"
-        ],
-        "created_at": "2026-02-06T13:09:23Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Document the `mcp-actions-backend`",
-        "url": "https://github.com/backstage/backstage/issues/32717",
-        "labels": [
-            "good first issue",
-            "stale",
-            "domain:docs",
-            "needs:triage",
-            "area:framework"
-        ],
-        "created_at": "2026-02-06T13:07:27Z"
     },
     {
         "repo": "backstage/backstage",
@@ -24072,7 +24006,8 @@
             "good first issue",
             "area/settings \u2699\ufe0f",
             "area/managed-configuration",
-            "forward"
+            "forward",
+            "domain/settings"
         ],
         "created_at": "2025-11-18T11:58:07Z"
     },
@@ -24179,6 +24114,20 @@
             "external-user"
         ],
         "created_at": "2025-06-23T19:04:50Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Cannot start from a waypipe session",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/12925",
+        "labels": [
+            "good first issue",
+            "area/dashboard \ud83d\udcca",
+            "area/install \ud83c\udf81",
+            "os/linux \ud83d\udc27"
+        ],
+        "created_at": "2025-06-20T22:57:09Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -29449,19 +29398,6 @@
         "repo": "prometheus/prometheus",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[flaky tests] TestReshardPartialBatch",
-        "url": "https://github.com/prometheus/prometheus/issues/18078",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "component/tests"
-        ],
-        "created_at": "2026-02-13T05:40:30Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "prombench: Is Prombench reliable enough? fix or document ignorable baseline",
         "url": "https://github.com/prometheus/prometheus/issues/18046",
         "labels": [
@@ -29785,6 +29721,21 @@
             "priority/P3"
         ],
         "created_at": "2024-09-09T00:05:37Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "PromQL: Need richer label matcher logic (or apply matchers to expressions?)",
+        "url": "https://github.com/prometheus/prometheus/issues/14824",
+        "labels": [
+            "help wanted",
+            "priority/Pmaybe",
+            "component/promql",
+            "not-as-easy-as-it-looks",
+            "kind/feature"
+        ],
+        "created_at": "2024-09-04T10:38:57Z"
     },
     {
         "repo": "thanos-io/thanos",

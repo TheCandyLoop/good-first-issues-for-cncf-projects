@@ -2092,21 +2092,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Highlighted hyperlink redirects to an error page",
-        "url": "https://github.com/meshery/meshery/issues/19987",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-11T07:11:58Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Registry action dialogs open behind Registry modal",
         "url": "https://github.com/meshery/meshery/issues/19831",
         "labels": [
@@ -2520,6 +2505,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Template] Create a AWS architecture template",
+        "url": "https://github.com/meshery/meshery/issues/12500",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:33:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Add a glossary page for common Meshery terms",
         "url": "https://github.com/meshery/meshery/issues/19775",
         "labels": [
@@ -2816,6 +2817,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-04-18T07:57:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Add resizability to the Sidebar component in Meshery Docs",
+        "url": "https://github.com/meshery/meshery/issues/18804",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-04-17T23:57:12Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -10578,6 +10593,18 @@
             "kind/cleanup"
         ],
         "created_at": "2023-09-06T07:34:04Z"
+    },
+    {
+        "repo": "hyperlight-dev/hyperlight",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "`GuestBinary::FilePath` takes path by String",
+        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1518",
+        "labels": [
+            "good first issue",
+            "lifecycle/confirmed"
+        ],
+        "created_at": "2026-06-08T19:34:17Z"
     },
     {
         "repo": "hyperlight-dev/hyperlight",
@@ -18755,8 +18782,7 @@
         "url": "https://github.com/kgateway-dev/kgateway/issues/10971",
         "labels": [
             "Type: Tech Debt",
-            "Good First Issue",
-            "stale"
+            "Good First Issue"
         ],
         "created_at": "2025-03-28T20:25:13Z"
     },

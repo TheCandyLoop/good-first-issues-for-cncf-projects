@@ -2522,6 +2522,19 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[CI] Docs PR build previews are failing",
+        "url": "https://github.com/meshery/meshery/issues/19978",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-06-11T02:25:10Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Auto-close sidebar after search in mobile view",
         "url": "https://github.com/meshery/meshery/issues/19880",
         "labels": [
@@ -2832,20 +2845,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-04-18T07:57:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Add resizability to the Sidebar component in Meshery Docs",
-        "url": "https://github.com/meshery/meshery/issues/18804",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-04-17T23:57:12Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3509,6 +3508,17 @@
             "OSS-Hard"
         ],
         "created_at": "2025-04-30T03:08:49Z"
+    },
+    {
+        "repo": "dragonflyoss/dragonfly",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "K3s \u90e8\u7f72\u95ee\u9898",
+        "url": "https://github.com/dragonflyoss/dragonfly/issues/4815",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-06-10T14:32:10Z"
     },
     {
         "repo": "goharbor/harbor",
@@ -8552,7 +8562,8 @@
         "url": "https://github.com/spiffe/spire/issues/6118",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2025-06-07T00:23:19Z"
     },
@@ -15044,22 +15055,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Kubelet metrics definitions?",
-        "url": "https://github.com/kubernetes/kubernetes/issues/131986",
-        "labels": [
-            "kind/bug",
-            "kind/documentation",
-            "sig/node",
-            "help wanted",
-            "priority/important-longterm",
-            "triage/accepted"
-        ],
-        "created_at": "2025-05-27T15:43:29Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "docker credential JSON: validate non UTF-8 characters",
         "url": "https://github.com/kubernetes/kubernetes/issues/131982",
         "labels": [
@@ -15182,6 +15177,23 @@
             "triage/accepted"
         ],
         "created_at": "2025-02-14T14:01:05Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Migrate Kubelet codebase to contextual logging",
+        "url": "https://github.com/kubernetes/kubernetes/issues/130069",
+        "labels": [
+            "area/logging",
+            "sig/node",
+            "kind/feature",
+            "help wanted",
+            "sig/instrumentation",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2025-02-10T15:37:37Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -17338,18 +17350,6 @@
             "area/tls"
         ],
         "created_at": "2025-12-17T20:36:28Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Allow group operation on fine-grain loggers from adminz",
-        "url": "https://github.com/envoyproxy/envoy/issues/42434",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2025-12-05T15:55:22Z"
     },
     {
         "repo": "envoyproxy/envoy",
@@ -24293,7 +24293,6 @@
             "area/dashboard \ud83d\udcca",
             "os/linux \ud83d\udc27",
             "area/extension/podman \ud83e\uddad",
-            "lifecycle/stale",
             "domain/containers/inreview"
         ],
         "created_at": "2023-06-14T16:33:54Z"

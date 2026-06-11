@@ -5342,6 +5342,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Keycloak and Patroni failover and targetServerType=primary on pgBouncer",
+        "url": "https://github.com/keycloak/keycloak/issues/49515",
+        "labels": [
+            "kind/enhancement",
+            "area/dist/quarkus",
+            "help wanted",
+            "team/cloud-native",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-29T21:23:05Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[OID4VCI] Documentation for credential request",
         "url": "https://github.com/keycloak/keycloak/issues/49504",
         "labels": [
@@ -5669,23 +5686,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-18T21:19:28Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SAML signature verification fails in Shibboleth when KeyName is present in KeyInfo in Keycloaks metadata",
-        "url": "https://github.com/keycloak/keycloak/issues/49034",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-16T13:02:53Z"
     },
     {
         "repo": "keylime/keylime",
@@ -15170,6 +15170,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: tests on k3d have started failing",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3832",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-06-11T20:01:55Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[outreach] produce a 5-minute KubeStellar demo video for YouTube / KubeCon booth",
         "url": "https://github.com/kubestellar/kubestellar/issues/3829",
         "labels": [
@@ -15521,18 +15533,6 @@
             "conference"
         ],
         "created_at": "2026-06-06T13:20:26Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcca [Strategist] Q2 2026 Strategic Priorities \u2014 PR Queue, K8s 1.32, Issue Health",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3788",
-        "labels": [
-            "help wanted",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-06T13:20:22Z"
     },
     {
         "repo": "kubereboot/kured",

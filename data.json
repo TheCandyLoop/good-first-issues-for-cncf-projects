@@ -2063,16 +2063,13 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Highlighted hyperlink redirects to an error page",
-        "url": "https://github.com/meshery/meshery/issues/19989",
+        "title": "[UI] Improve notification content formatting and spacing",
+        "url": "https://github.com/meshery/meshery/issues/20044",
         "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
+            "kind/bug",
+            "good first issue"
         ],
-        "created_at": "2026-06-11T08:51:48Z"
+        "created_at": "2026-06-13T08:38:10Z"
     },
     {
         "repo": "meshery/meshery",

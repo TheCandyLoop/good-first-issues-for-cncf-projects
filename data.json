@@ -2099,6 +2099,18 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Connection icon disappears when collapsing the Lifecycle menu",
+        "url": "https://github.com/meshery/meshery/issues/19966",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-06-10T19:19:53Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Full Screen toggle does not work in Registry modal",
         "url": "https://github.com/meshery/meshery/issues/19830",
         "labels": [
@@ -2479,22 +2491,6 @@
             "type/visual-design"
         ],
         "created_at": "2024-10-28T14:41:25Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Template] Create a DFD Level 1 template",
-        "url": "https://github.com/meshery/meshery/issues/12501",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:37:00Z"
     },
     {
         "repo": "meshery/meshery",
@@ -3111,6 +3107,19 @@
             "good first issue"
         ],
         "created_at": "2020-09-04T08:46:53Z"
+    },
+    {
+        "repo": "opentofu/opentofu",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "OpenTelemetry Tracing: expose OTel SDK internal log verbosity via env var for debugging export issues",
+        "url": "https://github.com/opentofu/opentofu/issues/4102",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "accepted"
+        ],
+        "created_at": "2026-05-13T01:15:39Z"
     },
     {
         "repo": "opentofu/opentofu",
@@ -4174,21 +4183,6 @@
         "repo": "cert-manager/cert-manager",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Add network policy allowance into documentation",
-        "url": "https://github.com/cert-manager/cert-manager/issues/2334",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "kind/documentation",
-            "priority/backlog",
-            "area/deploy"
-        ],
-        "created_at": "2019-11-08T00:15:03Z"
-    },
-    {
-        "repo": "cert-manager/cert-manager",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "if certificate is already expired, it shown like a True",
         "url": "https://github.com/cert-manager/cert-manager/issues/7895",
         "labels": [
@@ -5188,23 +5182,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "UserInfoEndpoint throws NullPointerException (HTTP 500) for JWTs with null or missing alg header",
-        "url": "https://github.com/keycloak/keycloak/issues/49969",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-12T15:31:58Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "client-policies: secure-redirect-uris-enforcer does not work with empty logout redirect URIs list",
         "url": "https://github.com/keycloak/keycloak/issues/49911",
         "labels": [
@@ -5687,6 +5664,22 @@
             "status/auto-bump"
         ],
         "created_at": "2026-05-19T01:32:07Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
+        "url": "https://github.com/keycloak/keycloak/issues/49077",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6577,19 +6570,6 @@
             "log enhancement"
         ],
         "created_at": "2024-01-31T12:31:42Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "[Feature] failurePolicy to be properly defaulted to `Fail` in the resource",
-        "url": "https://github.com/kyverno/kyverno/issues/7698",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "stale"
-        ],
-        "created_at": "2023-06-28T12:16:01Z"
     },
     {
         "repo": "notaryproject/notation",
@@ -14321,18 +14301,6 @@
         "repo": "kube-rs/kube",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "CEL client side validation",
-        "url": "https://github.com/kube-rs/kube/issues/1670",
-        "labels": [
-            "help wanted",
-            "cel"
-        ],
-        "created_at": "2024-12-22T03:18:16Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Add better unit tests for `watcher`",
         "url": "https://github.com/kube-rs/kube/issues/1528",
         "labels": [
@@ -15145,18 +15113,6 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "bug: tests on k3d have started failing",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3832",
-        "labels": [
-            "kind/bug",
-            "help wanted"
-        ],
-        "created_at": "2026-06-11T20:01:55Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[outreach] produce a 5-minute KubeStellar demo video for YouTube / KubeCon booth",
         "url": "https://github.com/kubestellar/kubestellar/issues/3829",
         "labels": [
@@ -15508,6 +15464,18 @@
             "conference"
         ],
         "created_at": "2026-06-06T13:20:26Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcca [Strategist] Q2 2026 Strategic Priorities \u2014 PR Queue, K8s 1.32, Issue Health",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3788",
+        "labels": [
+            "help wanted",
+            "kind/documentation"
+        ],
+        "created_at": "2026-06-06T13:20:22Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -18618,6 +18586,7 @@
         "url": "https://github.com/kgateway-dev/kgateway/issues/13637",
         "labels": [
             "Good First Issue",
+            "stale",
             "Area: CI/CD",
             "help wanted"
         ],
@@ -23978,21 +23947,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Default managed configuration does not skip welcome screen",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/14945",
-        "labels": [
-            "good first issue",
-            "area/settings \u2699\ufe0f",
-            "area/managed-configuration",
-            "forward",
-            "domain/settings"
-        ],
-        "created_at": "2025-11-18T11:58:07Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Improved Delete Button Component",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/14437",
         "labels": [
@@ -28737,20 +28691,6 @@
             "priority/P1"
         ],
         "created_at": "2025-10-06T13:54:30Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Keyboard shortcut binding",
-        "url": "https://github.com/perses/perses/issues/3347",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "ui",
-            "priority/P2"
-        ],
-        "created_at": "2025-09-15T13:13:48Z"
     },
     {
         "repo": "perses/perses",

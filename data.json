@@ -558,6 +558,19 @@
         "repo": "cadence-workflow/cadence",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Support Jitter on RetryPolicies",
+        "url": "https://github.com/cadence-workflow/cadence/issues/8238",
+        "labels": [
+            "feature",
+            "up-for-grabs",
+            "good first issue"
+        ],
+        "created_at": "2026-06-16T16:37:31Z"
+    },
+    {
+        "repo": "cadence-workflow/cadence",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Add gofuzz tests to mapper functions",
         "url": "https://github.com/cadence-workflow/cadence/issues/7611",
         "labels": [
@@ -2496,6 +2509,34 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Models : Support alternative view by Category",
+        "url": "https://github.com/meshery/meshery/issues/20092",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-16T20:05:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] make docker command fails \u2014 should be make docker-build",
+        "url": "https://github.com/meshery/meshery/issues/20091",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-16T19:26:08Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "ResponsiveImage component is duplicated",
         "url": "https://github.com/meshery/meshery/issues/20040",
         "labels": [
@@ -2823,17 +2864,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Server] CreateK8sResource returns an error after a successful force recreate",
-        "url": "https://github.com/meshery/meshery/issues/18976",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:45Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4235,21 +4265,6 @@
         "created_at": "2020-01-22T14:27:55Z"
     },
     {
-        "repo": "cert-manager/cert-manager",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Allowing skipping HTTP01 and DNS01 self-check on a per-solver basis",
-        "url": "https://github.com/cert-manager/cert-manager/issues/1292",
-        "labels": [
-            "area/api",
-            "help wanted",
-            "kind/feature",
-            "priority/important-longterm",
-            "area/acme"
-        ],
-        "created_at": "2019-01-31T19:23:43Z"
-    },
-    {
         "repo": "confidential-containers/confidential-containers",
         "tier": "Sandbox",
         "lang": "Unknown",
@@ -5380,20 +5395,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "[OID4VCI] Documentation of client settings",
-        "url": "https://github.com/keycloak/keycloak/issues/49502",
-        "labels": [
-            "help wanted",
-            "kind/task",
-            "area/oid4vc",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-29T15:17:57Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "[SAST] Dead local stores (Batch 2)",
         "url": "https://github.com/keycloak/keycloak/issues/49490",
         "labels": [
@@ -5680,6 +5681,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-18T21:19:28Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SAML signature verification fails in Shibboleth when KeyName is present in KeyInfo in Keycloaks metadata",
+        "url": "https://github.com/keycloak/keycloak/issues/49034",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-16T13:02:53Z"
     },
     {
         "repo": "keylime/keylime",

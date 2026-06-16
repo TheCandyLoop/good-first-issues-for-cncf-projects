@@ -5274,22 +5274,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "`--features=cimd` should add `none` to token_endpoint_auth_methods_supported",
-        "url": "https://github.com/keycloak/keycloak/issues/49730",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-05T16:05:39Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Identity provider details causes double API call",
         "url": "https://github.com/keycloak/keycloak/issues/49721",
         "labels": [
@@ -5405,6 +5389,20 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "[OID4VCI] Documentation of user settings (admin console, account console)",
+        "url": "https://github.com/keycloak/keycloak/issues/49503",
+        "labels": [
+            "help wanted",
+            "kind/task",
+            "area/oid4vc",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-29T15:21:29Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[OID4VCI] Documentation of client settings",
         "url": "https://github.com/keycloak/keycloak/issues/49502",
         "labels": [
@@ -5414,34 +5412,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-29T15:17:57Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] documentation of OID4VCI mappers",
-        "url": "https://github.com/keycloak/keycloak/issues/49501",
-        "labels": [
-            "help wanted",
-            "kind/task",
-            "area/oid4vc",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-29T15:14:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Documentation of the OID4VCI client scope configuration",
-        "url": "https://github.com/keycloak/keycloak/issues/49499",
-        "labels": [
-            "help wanted",
-            "kind/task",
-            "area/oid4vc",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-29T15:13:29Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5681,6 +5651,42 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-21T11:00:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Quick theme login style broken",
+        "url": "https://github.com/keycloak/keycloak/issues/49146",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-05-20T09:08:07Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Error while removing expired entries from database",
+        "url": "https://github.com/keycloak/keycloak/issues/49083",
+        "labels": [
+            "kind/bug",
+            "area/storage",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-05-19T01:32:07Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9127,7 +9133,7 @@
             "good first issue",
             "component/longhorn-manager",
             "reproduce/often",
-            "priority/1",
+            "priority/0",
             "area/csi",
             "severity/3",
             "area/data-locality",
@@ -11962,21 +11968,6 @@
             "area/datapath"
         ],
         "created_at": "2021-03-24T10:50:14Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Set 'native-routing-cidr' automatically from 'cluster-pool-ipv4-cidr' if ipam == cluster-pool",
-        "url": "https://github.com/cilium/cilium/issues/12186",
-        "labels": [
-            "good-first-issue",
-            "area/datapath",
-            "kind/feature",
-            "pinned",
-            "area/ipam"
-        ],
-        "created_at": "2020-06-18T16:56:45Z"
     },
     {
         "repo": "containernetworking/cni",

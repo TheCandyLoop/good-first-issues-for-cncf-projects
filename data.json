@@ -2128,18 +2128,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Expand/Collapse sidebar button in Registry is inconsistent with the main page",
-        "url": "https://github.com/meshery/meshery/issues/19968",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-06-10T20:51:43Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Connection icon disappears when collapsing the Lifecycle menu",
         "url": "https://github.com/meshery/meshery/issues/19966",
         "labels": [
@@ -2516,6 +2504,22 @@
             "type/visual-design"
         ],
         "created_at": "2024-10-28T14:47:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Design Critique template",
+        "url": "https://github.com/meshery/meshery/issues/12502",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:41:25Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5223,6 +5227,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Client Secret Rotation docs incorrectly mark feature as experimental instead of preview",
+        "url": "https://github.com/keycloak/keycloak/issues/50139",
+        "labels": [
+            "kind/bug",
+            "area/docs",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-06-18T16:29:51Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "client-policies: secure-redirect-uris-enforcer does not work with empty logout redirect URIs list",
         "url": "https://github.com/keycloak/keycloak/issues/49911",
         "labels": [
@@ -5709,22 +5730,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-15T12:54:55Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Pre-Authorized Code Replay",
-        "url": "https://github.com/keycloak/keycloak/issues/48902",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-12T02:29:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -7448,20 +7453,6 @@
             "event/slam"
         ],
         "created_at": "2025-10-22T20:06:57Z"
-    },
-    {
-        "repo": "oscal-compass/compliance-trestle",
-        "tier": "Sandbox",
-        "lang": "Python",
-        "title": "POAM: task to create POAM from spread sheet",
-        "url": "https://github.com/oscal-compass/compliance-trestle/issues/1881",
-        "labels": [
-            "help wanted",
-            "python",
-            "exempt-from-stale",
-            "event/slam"
-        ],
-        "created_at": "2025-05-21T10:42:14Z"
     },
     {
         "repo": "oscal-compass/compliance-trestle",
@@ -11209,22 +11200,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Containers in the same pod binding to same port cause runtime failure without warning",
-        "url": "https://github.com/podman-container-tools/podman/issues/26622",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "bugweek",
-            "triaged",
-            "Contribfest"
-        ],
-        "created_at": "2025-07-12T14:36:52Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "feat(kube play): flag to specify resources (pods, secrets, volumes) labels",
         "url": "https://github.com/podman-container-tools/podman/issues/26450",
         "labels": [
@@ -11366,8 +11341,22 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "ImageSearch and ImageSearchLibPod are specified incorrectly in swagger docs",
-        "url": "https://github.com/podman-container-tools/podman/issues/23741",
+        "title": "pull --all-tags : confusing documentation",
+        "url": "https://github.com/podman-container-tools/podman/issues/23625",
+        "labels": [
+            "Good First Issue",
+            "documentation",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2024-08-14T20:04:02Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "libpod Swagger spec has multiple fields with same x-go-name",
+        "url": "https://github.com/podman-container-tools/podman/issues/22966",
         "labels": [
             "Good First Issue",
             "kind/bug",
@@ -11375,7 +11364,7 @@
             "volunteers-wanted",
             "Contribfest"
         ],
-        "created_at": "2024-08-25T06:57:21Z"
+        "created_at": "2024-06-11T15:29:23Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -25537,6 +25526,19 @@
             "group:hacktoberfest-2023"
         ],
         "created_at": "2022-10-10T13:59:47Z"
+    },
+    {
+        "repo": "fluxcd/flux2",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Add categories to the CRDs",
+        "url": "https://github.com/fluxcd/flux2/issues/5947",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "area/api"
+        ],
+        "created_at": "2026-06-18T12:01:35Z"
     },
     {
         "repo": "fluxcd/flux2",

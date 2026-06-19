@@ -11282,20 +11282,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[docs] Distinguish between lazy pulling and partial pulling",
-        "url": "https://github.com/podman-container-tools/podman/issues/24947",
-        "labels": [
-            "Good First Issue",
-            "documentation",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2025-01-06T20:26:14Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Manifest create has poor error message on conflict with image",
         "url": "https://github.com/podman-container-tools/podman/issues/24537",
         "labels": [
@@ -11378,6 +11364,18 @@
             "Contribfest"
         ],
         "created_at": "2024-06-11T15:29:23Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "`docker login` with docker.io creds  \"successfully\" logs-into `registry.fedoraproject.org` then fails to push to `registry-1.docker.io`",
+        "url": "https://github.com/podman-container-tools/podman/issues/22400",
+        "labels": [
+            "Good First Issue",
+            "kind/bug"
+        ],
+        "created_at": "2024-04-16T21:00:44Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -12295,6 +12293,19 @@
             "component/spec"
         ],
         "created_at": "2018-01-25T11:05:14Z"
+    },
+    {
+        "repo": "kube-vip/kube-vip",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add BMP support for BGP metrics",
+        "url": "https://github.com/kube-vip/kube-vip/issues/1605",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "BGP"
+        ],
+        "created_at": "2026-06-19T16:25:12Z"
     },
     {
         "repo": "kube-vip/kube-vip",
@@ -25152,6 +25163,19 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Add unit tests for informer event handler funcs across controllers",
+        "url": "https://github.com/argoproj/argo-cd/issues/28357",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:test"
+        ],
+        "created_at": "2026-06-19T15:41:03Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ArgoCD events should display event issuer",
         "url": "https://github.com/argoproj/argo-cd/issues/25684",
         "labels": [
@@ -25535,21 +25559,6 @@
             "good first issue"
         ],
         "created_at": "2022-10-26T06:39:23Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Add description and validation to `include` and `exclude` fields in Parameters tab of directory apps",
-        "url": "https://github.com/argoproj/argo-cd/issues/10880",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "type:usability",
-            "component:ui",
-            "group:hacktoberfest-2023"
-        ],
-        "created_at": "2022-10-10T13:59:47Z"
     },
     {
         "repo": "fluxcd/flux2",

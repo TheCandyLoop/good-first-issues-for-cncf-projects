@@ -16021,19 +16021,6 @@
         "repo": "volcano-sh/volcano",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Noisy log outputs on realCapability and capability due to maxFloat and maxInt",
-        "url": "https://github.com/volcano-sh/volcano/issues/5148",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/bug"
-        ],
-        "created_at": "2026-03-31T11:15:03Z"
-    },
-    {
-        "repo": "volcano-sh/volcano",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Multiple good-first-issue bugs in capacity plugin, backfill action, cache session lifecycle, and e2e test context dumping",
         "url": "https://github.com/volcano-sh/volcano/issues/5048",
         "labels": [

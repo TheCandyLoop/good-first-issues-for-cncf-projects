@@ -15490,18 +15490,6 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[outreach] console-marketplace promotion \u2014 153 card templates undiscovered, community contribution angle",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3824",
-        "labels": [
-            "help wanted",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T12:41:35Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[outreach] GitHub Discussions reactivation \u2014 3yr dormant, key CNCF community signal",
         "url": "https://github.com/kubestellar/kubestellar/issues/3823",
         "labels": [
@@ -15805,6 +15793,18 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-06T13:20:22Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: kos.repository is deprecated",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3776",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-05-08T14:45:19Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -22965,6 +22965,19 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Helm doesn't wait for Custom Resources on new releases using `upgrade --install`.",
+        "url": "https://github.com/helm/helm/issues/32066",
+        "labels": [
+            "help wanted",
+            "bug",
+            "unconfirmed"
+        ],
+        "created_at": "2026-04-22T11:07:45Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Getting `panic: failed to create default capabilities` when building with Bazel",
         "url": "https://github.com/helm/helm/issues/31904",
         "labels": [
@@ -23290,19 +23303,6 @@
             "bug"
         ],
         "created_at": "2021-05-14T21:05:08Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Respect helm.sh/resource-policy annotation of remote resource",
-        "url": "https://github.com/helm/helm/issues/8132",
-        "labels": [
-            "help wanted",
-            "feature",
-            "keep open"
-        ],
-        "created_at": "2020-05-15T02:42:48Z"
     },
     {
         "repo": "ko-build/ko",

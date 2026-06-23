@@ -5377,22 +5377,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "[CIMD] secure-redirect-uris-enforcer is not enforced for CIMD public clients during authorization requests",
-        "url": "https://github.com/keycloak/keycloak/issues/49456",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-29T02:55:45Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Admin UI: Workflows menu link visible to users without sufficient permissions to use it",
         "url": "https://github.com/keycloak/keycloak/issues/49452",
         "labels": [
@@ -5701,6 +5685,22 @@
             "team/core-authn"
         ],
         "created_at": "2026-05-06T15:47:54Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Missing Nonce Drops Connection (HTTP 502) OIDC Identity Provider fails with IdentityBrokerException",
+        "url": "https://github.com/keycloak/keycloak/issues/48694",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-04T17:09:57Z"
     },
     {
         "repo": "keylime/keylime",
@@ -15377,6 +15377,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: objectIsQueried infinite loop on embedded-then-standalone field names",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3848",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-06-23T08:16:59Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[outreach] produce a 5-minute KubeStellar demo video for YouTube / KubeCon booth",
         "url": "https://github.com/kubestellar/kubestellar/issues/3829",
         "labels": [
@@ -15728,18 +15740,6 @@
             "help wanted"
         ],
         "created_at": "2026-05-08T14:45:19Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "doc: [TASK] Document Automated Testing Policy to satisfy OpenSSF Best Practices",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3771",
-        "labels": [
-            "help wanted",
-            "kind/documentation"
-        ],
-        "created_at": "2026-05-07T05:10:48Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -28136,6 +28136,19 @@
             "gadgets/snapshot/socket"
         ],
         "created_at": "2021-10-28T10:04:59Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[feature]: Support Jaeger-specific CLI commands in custom OCB distributions",
+        "url": "https://github.com/jaegertracing/jaeger/issues/8831",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "changelog:new-feature"
+        ],
+        "created_at": "2026-06-23T03:51:42Z"
     },
     {
         "repo": "jaegertracing/jaeger",

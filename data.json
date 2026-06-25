@@ -2119,6 +2119,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Missing Extension Icon Before Kanvas Title",
+        "url": "https://github.com/meshery/meshery/issues/20208",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-23T17:56:36Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] YouTube video fails to load with Error 153 in 'The Cloud Native Playground' modal",
         "url": "https://github.com/meshery/meshery/issues/20118",
         "labels": [
@@ -2511,17 +2526,16 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
+        "title": "[Docs] Table of Contents: Ensure that leaf pages have normal font weight",
+        "url": "https://github.com/meshery/meshery/issues/20242",
         "labels": [
-            "kind/enhancement",
             "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
+            "area/docs",
+            "language/markdown",
+            "language/css",
+            "framework/hugo"
         ],
-        "created_at": "2024-10-28T14:47:23Z"
+        "created_at": "2026-06-24T21:18:18Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2840,28 +2854,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:56Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[mesheryctl] Populate generated model definitions with the requested model name",
-        "url": "https://github.com/meshery/meshery/issues/18982",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[mesheryctl] Align model init output-format help with actual CSV support",
-        "url": "https://github.com/meshery/meshery/issues/18981",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:53Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -12386,7 +12378,8 @@
             "bug",
             "help wanted",
             "wireguard",
-            "priority:medium"
+            "priority:medium",
+            "stale"
         ],
         "created_at": "2024-05-31T18:05:50Z"
     },
@@ -12489,18 +12482,6 @@
             "awaiting-maintainer"
         ],
         "created_at": "2019-07-13T19:01:19Z"
-    },
-    {
-        "repo": "agones-dev/agones",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[build] Print debug information on helm failure to install",
-        "url": "https://github.com/agones-dev/agones/issues/4617",
-        "labels": [
-            "help wanted",
-            "area/build-tools"
-        ],
-        "created_at": "2026-06-13T21:24:19Z"
     },
     {
         "repo": "agones-dev/agones",
@@ -15347,6 +15328,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: PVC downsync fails and hub loses tracking when edge defaults storageClassName",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3855",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-06-25T02:09:11Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: objectIsQueried infinite loop on embedded-then-standalone field names",
         "url": "https://github.com/kubestellar/kubestellar/issues/3848",
         "labels": [
@@ -15698,18 +15691,6 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-06T13:20:22Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: kos.repository is deprecated",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3776",
-        "labels": [
-            "kind/bug",
-            "help wanted"
-        ],
-        "created_at": "2026-05-08T14:45:19Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -30863,7 +30844,8 @@
             "good first issue",
             "area/engprod",
             "kfserving/storage",
-            "stale-warning-1"
+            "stale-warning-1",
+            "stale-warning-2"
         ],
         "created_at": "2020-05-19T11:41:30Z"
     },

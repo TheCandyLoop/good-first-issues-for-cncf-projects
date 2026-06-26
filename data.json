@@ -2525,8 +2525,36 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Table of Contents: Ensure that leaf pages have normal font weight",
-        "url": "https://github.com/meshery/meshery/issues/20242",
+        "title": "[Docs] Reference and Extensibility: Recent Discussions listed twice",
+        "url": "https://github.com/meshery/meshery/issues/20278",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-26T03:08:19Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs]Make Meshery Docs the canonical home for schemas contributor guidance",
+        "url": "https://github.com/meshery/meshery/issues/20273",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-26T00:15:05Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Colorize Scrollbar",
+        "url": "https://github.com/meshery/meshery/issues/20265",
         "labels": [
             "help wanted",
             "area/docs",
@@ -2534,7 +2562,7 @@
             "language/css",
             "framework/hugo"
         ],
-        "created_at": "2026-06-24T21:18:18Z"
+        "created_at": "2026-06-25T22:35:24Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2853,28 +2881,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:56Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[mesheryctl] Populate generated model definitions with the requested model name",
-        "url": "https://github.com/meshery/meshery/issues/18982",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[mesheryctl] Align model init output-format help with actual CSV support",
-        "url": "https://github.com/meshery/meshery/issues/18981",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:53Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4891,25 +4897,11 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "ClusterSecretStore constantly reports ValidationUnknown",
-        "url": "https://github.com/external-secrets/external-secrets/issues/5549",
-        "labels": [
-            "help wanted",
-            "Stale",
-            "area/docs"
-        ],
-        "created_at": "2025-11-06T15:57:20Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Misleading Error Message for Namespace-Based Auth Failure in Akeyless Provider",
         "url": "https://github.com/external-secrets/external-secrets/issues/5394",
         "labels": [
             "help wanted",
             "kind/bug",
-            "Stale",
             "triage/pending-triage"
         ],
         "created_at": "2025-10-01T11:34:45Z"
@@ -5188,24 +5180,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "NumberFormatException for PAR request URI lifespan",
-        "url": "https://github.com/keycloak/keycloak/issues/50308",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-06-24T12:57:09Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "PathMatcher.buildUriFromTemplate throws StringIndexOutOfBoundsException for a template with an unclosed brace",
         "url": "https://github.com/keycloak/keycloak/issues/50291",
         "labels": [
@@ -5235,6 +5209,23 @@
             "priority/normal"
         ],
         "created_at": "2026-06-19T21:46:13Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "TokenManager.isValidScope overload ignores provided AuthorizationRequestContext (incomplete #49388 refactor)",
+        "url": "https://github.com/keycloak/keycloak/issues/49952",
+        "labels": [
+            "kind/bug",
+            "area/token-exchange",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-06-12T09:33:56Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -18436,17 +18427,6 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "HIgress\u662f\u5426\u80fd\u652f\u6301Nginx-ingress\u7684SSI\u7279\u6027 || Can HIgress support the SSI feature of Nginx-ingress?",
-        "url": "https://github.com/higress-group/higress/issues/3913",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-06-04T01:41:49Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Support OpenAI Responses API affinity across multiple providers/deployments",
         "url": "https://github.com/higress-group/higress/issues/3841",
         "labels": [
@@ -18806,6 +18786,19 @@
             "area/ai"
         ],
         "created_at": "2025-02-05T09:47:27Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Implement claude LLM mock server & e2e test case",
+        "url": "https://github.com/higress-group/higress/issues/1719",
+        "labels": [
+            "help wanted",
+            "area/e2e",
+            "area/ai"
+        ],
+        "created_at": "2025-02-05T09:47:23Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -25492,6 +25485,17 @@
             "help wanted"
         ],
         "created_at": "2022-03-02T19:40:51Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Upgrade docs don't cover updating the build workflow templates",
+        "url": "https://github.com/openchoreo/openchoreo/issues/3659",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-06-01T18:58:45Z"
     },
     {
         "repo": "openchoreo/openchoreo",

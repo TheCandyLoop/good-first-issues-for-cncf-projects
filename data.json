@@ -201,20 +201,6 @@
         "repo": "runatlantis/atlantis",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Drift Detection",
-        "url": "https://github.com/runatlantis/atlantis/issues/3245",
-        "labels": [
-            "feature",
-            "help wanted",
-            "needs discussion",
-            "rfc"
-        ],
-        "created_at": "2023-03-20T03:46:32Z"
-    },
-    {
-        "repo": "runatlantis/atlantis",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "More maintainers, reviewers, early adopters, and doc writers",
         "url": "https://github.com/runatlantis/atlantis/issues/3202",
         "labels": [
@@ -554,6 +540,20 @@
             "help wanted"
         ],
         "created_at": "2021-08-05T17:37:31Z"
+    },
+    {
+        "repo": "runatlantis/atlantis",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Atlantis 0.17.2 not always creating 'default' working dir",
+        "url": "https://github.com/runatlantis/atlantis/issues/1714",
+        "labels": [
+            "bug",
+            "help wanted",
+            "regression",
+            "never-stale"
+        ],
+        "created_at": "2021-07-21T23:02:46Z"
     },
     {
         "repo": "cadence-workflow/cadence",
@@ -2087,18 +2087,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Align Docs scrollbar styling",
-        "url": "https://github.com/meshery/meshery/issues/20353",
-        "labels": [
-            "good first issue",
-            "component/ui"
-        ],
-        "created_at": "2026-06-29T13:51:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Registry Uses Incorrect Icon",
         "url": "https://github.com/meshery/meshery/issues/20309",
         "labels": [
@@ -2324,22 +2312,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Website: Customize scrollbar to match meshery.io",
-        "url": "https://github.com/meshery/meshery/issues/18357",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "language/css",
-            "framework/hugo"
-        ],
-        "created_at": "2026-03-31T02:32:20Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Rephrase Note on Deletion from Creating Models documentation.",
         "url": "https://github.com/meshery/meshery/issues/18277",
         "labels": [
@@ -2513,6 +2485,38 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Design Critique template",
+        "url": "https://github.com/meshery/meshery/issues/12502",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:41:25Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4147,19 +4151,6 @@
             "area/acme"
         ],
         "created_at": "2025-01-30T11:24:20Z"
-    },
-    {
-        "repo": "cert-manager/cert-manager",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "cert manager API showing error -  \"x509: certificate has expired or is not yet valid\"",
-        "url": "https://github.com/cert-manager/cert-manager/issues/5861",
-        "labels": [
-            "good first issue",
-            "lifecycle/frozen",
-            "priority/important-longterm"
-        ],
-        "created_at": "2023-03-14T06:55:28Z"
     },
     {
         "repo": "cert-manager/cert-manager",
@@ -10448,6 +10439,18 @@
         "repo": "cri-o/cri-o",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Add BATS_TEST_TIMEOUT for integration tests",
+        "url": "https://github.com/cri-o/cri-o/issues/10079",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-06-29T14:00:06Z"
+    },
+    {
+        "repo": "cri-o/cri-o",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Flaky test: container memory metrics uses exact comparison subject to race",
         "url": "https://github.com/cri-o/cri-o/issues/10055",
         "labels": [
@@ -10521,6 +10524,17 @@
             "kind/documentation"
         ],
         "created_at": "2023-01-26T15:47:16Z"
+    },
+    {
+        "repo": "cri-o/cri-o",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Unify GitHub Actions setup into Ansible playbook for reuse across CI systems",
+        "url": "https://github.com/cri-o/cri-o/issues/10053",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-06-18T16:59:46Z"
     },
     {
         "repo": "cri-o/cri-o",
@@ -14917,20 +14931,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Flaking Test] [sig-autoscaling] Horizontal pod autoscaling (scale resource: CPU) ReplicaSet Should scale from 1 pod to 3 pods and then from 3 pods to 5 pods and verify decision stability",
-        "url": "https://github.com/kubernetes/kubernetes/issues/139200",
-        "labels": [
-            "sig/autoscaling",
-            "kind/flake",
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-05-20T19:52:56Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[Flaking Test] TestEventSeries failing in pull-kubernetes-integration with timed out waiting for Event Series",
         "url": "https://github.com/kubernetes/kubernetes/issues/138679",
         "labels": [
@@ -15302,6 +15302,20 @@
         "created_at": "2025-02-06T21:15:31Z"
     },
     {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Flaky test] kubetest.diffResources",
+        "url": "https://github.com/kubernetes/kubernetes/issues/129953",
+        "labels": [
+            "kind/flake",
+            "help wanted",
+            "sig/testing",
+            "triage/accepted"
+        ],
+        "created_at": "2025-02-03T09:44:19Z"
+    },
+    {
         "repo": "kubeslice/kubeslice",
         "tier": "Sandbox",
         "lang": "Mustache",
@@ -15312,6 +15326,18 @@
             "help wanted"
         ],
         "created_at": "2025-07-28T05:15:35Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: Potential deadlock in bindingpolicy-resolution lock handling",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3864",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-06-29T19:01:09Z"
     },
     {
         "repo": "kubestellar/kubestellar",
@@ -15667,18 +15693,6 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-06T13:20:22Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: kos.repository is deprecated",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3776",
-        "labels": [
-            "kind/bug",
-            "help wanted"
-        ],
-        "created_at": "2026-05-08T14:45:19Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -17372,19 +17386,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Expose TLS peer certificate validation status in CEL context etc.",
-        "url": "https://github.com/envoyproxy/envoy/issues/45660",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/cel"
-        ],
-        "created_at": "2026-06-16T08:50:55Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Title: Support RFC 9440 (Client-Cert / Client-Cert-Chain) HTTP header fields",
         "url": "https://github.com/envoyproxy/envoy/issues/45354",
         "labels": [
@@ -17678,6 +17679,19 @@
             "area/ext_proc"
         ],
         "created_at": "2025-10-29T18:59:23Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "wasm: access log extension point is not thread safe",
+        "url": "https://github.com/envoyproxy/envoy/issues/41672",
+        "labels": [
+            "bug",
+            "help wanted",
+            "area/wasm"
+        ],
+        "created_at": "2025-10-23T21:20:28Z"
     },
     {
         "repo": "loxilb-io/loxilb",

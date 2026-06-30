@@ -2522,6 +2522,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Sidebar is not responsive",
+        "url": "https://github.com/meshery/meshery/issues/20363",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-30T00:07:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Model: Intra-page table of content dysfunctional for \"model\" pages.",
         "url": "https://github.com/meshery/meshery/issues/20339",
         "labels": [
@@ -2858,17 +2872,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:53Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Performance] Ignore whitespace-only request bodies in LoadTestHandler",
-        "url": "https://github.com/meshery/meshery/issues/18980",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:52Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -15922,19 +15925,6 @@
         "repo": "volcano-sh/volcano",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Add skip check in `predicateByStablefilter`",
-        "url": "https://github.com/volcano-sh/volcano/issues/5536",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/bug"
-        ],
-        "created_at": "2026-06-29T09:31:12Z"
-    },
-    {
-        "repo": "volcano-sh/volcano",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Multiple good-first-issue bugs in capacity plugin, backfill action, cache session lifecycle, and e2e test context dumping",
         "url": "https://github.com/volcano-sh/volcano/issues/5048",
         "labels": [
@@ -24296,20 +24286,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Installation of CLI tools in resticted environment causes errors ",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/6653",
-        "labels": [
-            "good first issue",
-            "area/extensions/compose \ud83c\udfb9",
-            "area/extension/kubectl-cli",
-            "domain/cli-tools"
-        ],
-        "created_at": "2024-04-04T13:28:45Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "\"Path\" title for podman binary should be \"Path to Binary\"",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/3847",
         "labels": [
@@ -25518,18 +25494,6 @@
             "good first issue"
         ],
         "created_at": "2026-05-12T08:55:13Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Missing componentrelease:delete action in systemActions registry",
-        "url": "https://github.com/openchoreo/openchoreo/issues/3061",
-        "labels": [
-            "good first issue",
-            "Type/Bug"
-        ],
-        "created_at": "2026-04-02T10:32:00Z"
     },
     {
         "repo": "openchoreo/openchoreo",

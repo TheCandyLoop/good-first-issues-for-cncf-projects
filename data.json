@@ -2087,6 +2087,19 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Fix Telemetry sidebar icon visibility in light mode",
+        "url": "https://github.com/meshery/meshery/issues/20378",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "first-timers-only"
+        ],
+        "created_at": "2026-07-01T08:36:39Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Improve hover state styling for sidebar navigation items",
         "url": "https://github.com/meshery/meshery/issues/20371",
         "labels": [
@@ -2497,22 +2510,6 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -6502,7 +6499,7 @@
             "bug",
             "good first issue",
             "validation",
-            "release-critical",
+            "stale",
             "type:clusterpolicy"
         ],
         "created_at": "2025-05-09T07:05:36Z"
@@ -23446,6 +23443,21 @@
         "repo": "kubevirt/kubevirt",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Transition to using gRPC error model",
+        "url": "https://github.com/kubevirt/kubevirt/issues/18285",
+        "labels": [
+            "kind/enhancement",
+            "area/launcher",
+            "area/handler",
+            "good-first-issue",
+            "kind/cleanup"
+        ],
+        "created_at": "2026-06-30T09:05:17Z"
+    },
+    {
+        "repo": "kubevirt/kubevirt",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Transition away from go-kit in kubevirt client-go/log",
         "url": "https://github.com/kubevirt/kubevirt/issues/18265",
         "labels": [
@@ -25545,6 +25557,18 @@
             "good first issue"
         ],
         "created_at": "2026-05-12T08:55:13Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Users are not given a clear error in UI about failing workflow",
+        "url": "https://github.com/openchoreo/openchoreo/issues/3017",
+        "labels": [
+            "good first issue",
+            "Type/Task"
+        ],
+        "created_at": "2026-04-01T05:25:25Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -30907,9 +30931,7 @@
             "help wanted",
             "good first issue",
             "kind/feature",
-            "kfserving/mms",
-            "stale-warning-1",
-            "stale-warning-2"
+            "kfserving/mms"
         ],
         "created_at": "2021-04-29T18:52:40Z"
     },

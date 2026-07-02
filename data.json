@@ -2072,6 +2072,19 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Sidebar shows 2 icon",
+        "url": "https://github.com/meshery/meshery/issues/20392",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "first-timers-only"
+        ],
+        "created_at": "2026-07-01T20:20:05Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Fix Telemetry sidebar icon visibility in light mode",
         "url": "https://github.com/meshery/meshery/issues/20378",
         "labels": [
@@ -2485,36 +2498,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:47:23Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Broken inline images and console errors on v0.8 Deploying Sample Apps docs page",
-        "url": "https://github.com/meshery/meshery/issues/20374",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-30T20:32:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Sidebar is not responsive",
         "url": "https://github.com/meshery/meshery/issues/20363",
         "labels": [
@@ -2851,6 +2834,17 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:53Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Performance] Ignore whitespace-only request bodies in LoadTestHandler",
+        "url": "https://github.com/meshery/meshery/issues/18980",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-04-29T03:30:52Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3900,6 +3894,19 @@
             "lifecycle/keep"
         ],
         "created_at": "2020-06-09T18:30:14Z"
+    },
+    {
+        "repo": "cartography-cncf/cartography",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "Scaleway: extend coverage to the remaining API domains",
+        "url": "https://github.com/cartography-cncf/cartography/issues/2980",
+        "labels": [
+            "good first issue",
+            "data-addition",
+            "module:Scaleway"
+        ],
+        "created_at": "2026-07-02T00:08:23Z"
     },
     {
         "repo": "cartography-cncf/cartography",
@@ -8621,7 +8628,8 @@
         "url": "https://github.com/spiffe/spire/issues/4305",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2023-06-29T20:52:04Z"
     },
@@ -15035,20 +15043,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "test/integration/apiserver: TestCustomResourceValidatorsWithSchemaConversion",
-        "url": "https://github.com/kubernetes/kubernetes/issues/135540",
-        "labels": [
-            "sig/api-machinery",
-            "kind/flake",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-12-02T06:48:30Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Tracking: Enable Kube-API-Linter rules",
         "url": "https://github.com/kubernetes/kubernetes/issues/134671",
         "labels": [
@@ -15295,30 +15289,44 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "k8s.io/apiserver/pkg/util: proxy TestStreamTranslator_TTYResizeChannel failing in `pull-kubernetes-unit`",
-        "url": "https://github.com/kubernetes/kubernetes/issues/130018",
+        "title": " ListWatch: StreamWatcher is consuming high memory in high pod churn",
+        "url": "https://github.com/kubernetes/kubernetes/issues/129705",
         "labels": [
-            "priority/backlog",
-            "sig/api-machinery",
-            "kind/flake",
+            "sig/scalability",
             "help wanted",
-            "triage/accepted"
+            "needs-triage"
         ],
-        "created_at": "2025-02-06T21:15:31Z"
+        "created_at": "2025-01-20T11:36:12Z"
     },
     {
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Flaky test] kubetest.diffResources",
-        "url": "https://github.com/kubernetes/kubernetes/issues/129953",
+        "title": "cloud-provider HasClusterID related functionality should have better documentation in the code",
+        "url": "https://github.com/kubernetes/kubernetes/issues/128320",
         "labels": [
-            "kind/flake",
+            "sig/storage",
             "help wanted",
-            "sig/testing",
+            "sig/cloud-provider",
             "triage/accepted"
         ],
-        "created_at": "2025-02-03T09:44:19Z"
+        "created_at": "2024-10-24T20:49:37Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Recreate the Device Manager gRPC server if failed",
+        "url": "https://github.com/kubernetes/kubernetes/issues/128167",
+        "labels": [
+            "priority/backlog",
+            "area/kubelet",
+            "sig/node",
+            "kind/feature",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2024-10-17T23:18:42Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -17282,6 +17290,19 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "Envoy `mcp_json_rest_bridge` filter injects unescaped path segments into the upstream request path (unauthenticated)",
+        "url": "https://github.com/envoyproxy/envoy/issues/45931",
+        "labels": [
+            "bug",
+            "help wanted",
+            "area/mcp"
+        ],
+        "created_at": "2026-07-02T02:13:12Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Hot Restart IPC Wire-Length Integer Overflow to Heap Buffer Overflow",
         "url": "https://github.com/envoyproxy/envoy/issues/45872",
         "labels": [
@@ -17670,20 +17691,6 @@
             "area/wasm"
         ],
         "created_at": "2025-10-23T21:20:28Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Feature request: Add overload action to restart Envoy when it gets stuck",
-        "url": "https://github.com/envoyproxy/envoy/issues/41492",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "no stalebot",
-            "area/overload_manager"
-        ],
-        "created_at": "2025-10-14T09:02:59Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -31142,7 +31149,8 @@
         "title": "Align repository with llm-d repo template (7 items)",
         "url": "https://github.com/llm-d/llm-d/issues/826",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "lifecycle/stale"
         ],
         "created_at": "2026-02-22T18:36:56Z"
     }

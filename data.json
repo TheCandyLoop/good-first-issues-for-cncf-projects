@@ -2498,6 +2498,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs]: Integrate Hugo module and shared-asset guidance to contributing guide",
+        "url": "https://github.com/meshery/meshery/issues/20429",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-03T07:50:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Document meshkit's syncmodutil for extension go.mod dependency sync",
         "url": "https://github.com/meshery/meshery/issues/20419",
         "labels": [
@@ -2839,17 +2853,6 @@
         "created_at": "2026-04-29T03:30:55Z"
     },
     {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[mesheryctl] Align model init output-format help with actual CSV support",
-        "url": "https://github.com/meshery/meshery/issues/18981",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:53Z"
-    },
-    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -3121,19 +3124,6 @@
             "good first issue"
         ],
         "created_at": "2020-09-04T08:46:53Z"
-    },
-    {
-        "repo": "opentofu/opentofu",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Create a plan with `resource` `lifecycle { destroy = false}`",
-        "url": "https://github.com/opentofu/opentofu/issues/4324",
-        "labels": [
-            "bug",
-            "good first issue",
-            "accepted"
-        ],
-        "created_at": "2026-06-30T11:36:35Z"
     },
     {
         "repo": "opentofu/opentofu",
@@ -15317,6 +15307,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: BindingPolicies with names >= 64 characters silently fail to create ManifestWorks",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3871",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-03T04:46:56Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: Updates to ServiceAccount secrets and imagePullSecrets do not downsync to edge clusters",
         "url": "https://github.com/kubestellar/kubestellar/issues/3870",
         "labels": [
@@ -15664,20 +15666,6 @@
             "help wanted"
         ],
         "created_at": "2026-06-06T13:20:27Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] Promote kubestellar/a2a \u2014 A2A + MCP server for multi-cluster AI agent infrastructure",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3790",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "partner",
-            "blog"
-        ],
-        "created_at": "2026-06-06T13:20:26Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -18730,19 +18718,6 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Implement gemini LLM mock server  & e2e test case",
-        "url": "https://github.com/higress-group/higress/issues/1722",
-        "labels": [
-            "help wanted",
-            "area/e2e",
-            "area/ai"
-        ],
-        "created_at": "2025-02-05T09:47:33Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Implement spark LLM mock server & e2e test case",
         "url": "https://github.com/higress-group/higress/issues/1721",
         "labels": [
@@ -18777,6 +18752,19 @@
             "area/ai"
         ],
         "created_at": "2025-02-05T09:47:23Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "implement a wasmplugin to support Content Security Policy",
+        "url": "https://github.com/higress-group/higress/issues/1706",
+        "labels": [
+            "help wanted",
+            "level/easy",
+            "sig/wasm"
+        ],
+        "created_at": "2025-01-23T02:22:12Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -28760,7 +28748,6 @@
         "title": "Include current time range in the Dashboard Links",
         "url": "https://github.com/perses/perses/issues/4176",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "api"
@@ -28799,7 +28786,6 @@
         "title": "Confusing UX if there is no default data source",
         "url": "https://github.com/perses/perses/issues/4024",
         "labels": [
-            "bug",
             "good first issue",
             "ui",
             "priority/P2"
@@ -28813,7 +28799,6 @@
         "title": "Moving the CSV Export Action Component into the shared component",
         "url": "https://github.com/perses/perses/issues/3945",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "plugin"
@@ -28827,7 +28812,6 @@
         "title": "Table: filtering misalignment",
         "url": "https://github.com/perses/perses/issues/3835",
         "labels": [
-            "bug",
             "good first issue",
             "ui"
         ],
@@ -28840,7 +28824,6 @@
         "title": "Table component filtering refactor for reusability",
         "url": "https://github.com/perses/perses/issues/3833",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "plugin"
@@ -28854,7 +28837,6 @@
         "title": "Table: Pagination setting does not work in full view mode",
         "url": "https://github.com/perses/perses/issues/3832",
         "labels": [
-            "bug",
             "good first issue",
             "ui"
         ],
@@ -28867,7 +28849,6 @@
         "title": "LogsTable: add configurable sorting",
         "url": "https://github.com/perses/perses/issues/3807",
         "labels": [
-            "enhancement",
             "good first issue",
             "plugin"
         ],
@@ -28880,7 +28861,6 @@
         "title": "Panel link container is placed on an arbitrary position on the screen",
         "url": "https://github.com/perses/perses/issues/3654",
         "labels": [
-            "bug",
             "good first issue",
             "ui",
             "priority/P1"
@@ -28907,7 +28887,6 @@
         "title": "Refactor to avoid nested ternary operators",
         "url": "https://github.com/perses/perses/issues/3580",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "priority/P2"
@@ -28921,7 +28900,6 @@
         "title": "StatChart: Multiple enhancements in multiseries",
         "url": "https://github.com/perses/perses/issues/3519",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "priority/P2",
@@ -28936,7 +28914,6 @@
         "title": "Lack of proper exception handling in Search Bar",
         "url": "https://github.com/perses/perses/issues/3430",
         "labels": [
-            "bug",
             "good first issue",
             "ui",
             "priority/P1"
@@ -28950,7 +28927,6 @@
         "title": "Replacing all Material UI Text Fields with Perses Text Field",
         "url": "https://github.com/perses/perses/issues/3323",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "priority/P2",
@@ -28965,7 +28941,6 @@
         "title": "Perses customized TextField component",
         "url": "https://github.com/perses/perses/issues/3322",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "priority/P2"
@@ -28979,7 +28954,6 @@
         "title": "TimeSeriesChart: The Label for Y Axis is not shown",
         "url": "https://github.com/perses/perses/issues/3264",
         "labels": [
-            "bug",
             "good first issue",
             "ui",
             "priority/P2",
@@ -28995,7 +28969,6 @@
         "title": "Panel long text affects the panel header menu",
         "url": "https://github.com/perses/perses/issues/3258",
         "labels": [
-            "bug",
             "good first issue",
             "ui",
             "priority/P2"
@@ -29009,7 +28982,6 @@
         "title": "View Ports scrolls and jumps when hovering the chart",
         "url": "https://github.com/perses/perses/issues/3222",
         "labels": [
-            "bug",
             "good first issue",
             "ui",
             "priority/P2"
@@ -29023,7 +28995,6 @@
         "title": "QueryEditorProps should be removed from the code base",
         "url": "https://github.com/perses/perses/issues/3202",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "priority/P2"
@@ -29037,7 +29008,6 @@
         "title": "Long text legend can not be scrolled",
         "url": "https://github.com/perses/perses/issues/3157",
         "labels": [
-            "bug",
             "good first issue",
             "ui",
             "priority/P2",
@@ -29052,7 +29022,6 @@
         "title": "Automate image publishing to quay",
         "url": "https://github.com/perses/perses/issues/2954",
         "labels": [
-            "enhancement",
             "good first issue",
             "ci/cd",
             "priority/P2"
@@ -29066,7 +29035,6 @@
         "title": "Copy dashboards from other projects",
         "url": "https://github.com/perses/perses/issues/2451",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "priority/P1"
@@ -29080,7 +29048,6 @@
         "title": "Local User profile ",
         "url": "https://github.com/perses/perses/issues/2098",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "priority/P2"
@@ -29094,7 +29061,6 @@
         "title": "Dynamic browser tab naming",
         "url": "https://github.com/perses/perses/issues/2006",
         "labels": [
-            "enhancement",
             "good first issue",
             "priority/P1"
         ],
@@ -29107,7 +29073,6 @@
         "title": "Allow opening dashboards/projects in new tabs in all cases",
         "url": "https://github.com/perses/perses/issues/1544",
         "labels": [
-            "enhancement",
             "good first issue",
             "ui",
             "priority/P1"
@@ -29121,7 +29086,6 @@
         "title": "Plugin Request: Clickhouse full support",
         "url": "https://github.com/perses/perses/issues/4202",
         "labels": [
-            "enhancement",
             "help wanted",
             "plugin"
         ],
@@ -29134,7 +29098,6 @@
         "title": "Support OpenTelemetry Demo",
         "url": "https://github.com/perses/perses/issues/3993",
         "labels": [
-            "enhancement",
             "help wanted"
         ],
         "created_at": "2026-03-30T08:50:31Z"
@@ -29157,7 +29120,6 @@
         "title": "Tempo: support the v2 of the API",
         "url": "https://github.com/perses/perses/issues/3961",
         "labels": [
-            "enhancement",
             "help wanted",
             "priority/P2",
             "plugin"
@@ -29171,7 +29133,6 @@
         "title": "Plugin Request: Weathermap Panel",
         "url": "https://github.com/perses/perses/issues/3845",
         "labels": [
-            "enhancement",
             "help wanted",
             "plugin"
         ],
@@ -29185,7 +29146,6 @@
         "url": "https://github.com/perses/perses/issues/3816",
         "labels": [
             "documentation",
-            "enhancement",
             "help wanted"
         ],
         "created_at": "2026-01-26T09:50:44Z"
@@ -29197,7 +29157,6 @@
         "title": "Plugin Request: Opengemini",
         "url": "https://github.com/perses/perses/issues/3716",
         "labels": [
-            "enhancement",
             "help wanted",
             "priority/P2",
             "plugin"
@@ -29211,7 +29170,6 @@
         "title": "Plugin request: Trino",
         "url": "https://github.com/perses/perses/issues/3703",
         "labels": [
-            "enhancement",
             "help wanted",
             "priority/P2",
             "plugin"
@@ -29225,7 +29183,6 @@
         "title": "Provide the complete Dashboard schema",
         "url": "https://github.com/perses/perses/issues/3596",
         "labels": [
-            "enhancement",
             "help wanted",
             "api",
             "priority/P2",
@@ -29241,7 +29198,6 @@
         "title": "Plugin request: Splunk",
         "url": "https://github.com/perses/perses/issues/3595",
         "labels": [
-            "enhancement",
             "help wanted",
             "priority/P2",
             "plugin"
@@ -29255,7 +29211,6 @@
         "title": "Plugin request: Parca",
         "url": "https://github.com/perses/perses/issues/3592",
         "labels": [
-            "enhancement",
             "help wanted",
             "priority/P2",
             "plugin"
@@ -29269,7 +29224,6 @@
         "title": "Support Math Expressions in Panels/Queries",
         "url": "https://github.com/perses/perses/issues/3469",
         "labels": [
-            "enhancement",
             "help wanted",
             "ui",
             "priority/P2"
@@ -29283,7 +29237,6 @@
         "title": "Consider replacing the lib go-yaml/yaml by gocci/go-yaml",
         "url": "https://github.com/perses/perses/issues/3074",
         "labels": [
-            "enhancement",
             "help wanted",
             "api",
             "priority/P2",
@@ -29298,7 +29251,6 @@
         "title": "Custom branding",
         "url": "https://github.com/perses/perses/issues/2686",
         "labels": [
-            "enhancement",
             "help wanted",
             "ui",
             "api",
@@ -29313,7 +29265,6 @@
         "title": "Drag panels from one section (Row) to another",
         "url": "https://github.com/perses/perses/issues/2604",
         "labels": [
-            "enhancement",
             "help wanted",
             "ui",
             "priority/P2"
@@ -29327,7 +29278,6 @@
         "title": "Panels in error are not getting refreshed",
         "url": "https://github.com/perses/perses/issues/2343",
         "labels": [
-            "bug",
             "help wanted",
             "ui",
             "priority/P1"
@@ -30596,19 +30546,6 @@
             "help wanted"
         ],
         "created_at": "2023-07-19T00:47:17Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "better handling on failed upstream partial requests",
-        "url": "https://github.com/trickstercache/trickster/issues/291",
-        "labels": [
-            "bug",
-            "help wanted",
-            "delta-proxy"
-        ],
-        "created_at": "2019-10-01T19:00:47Z"
     },
     {
         "repo": "trickstercache/trickster",

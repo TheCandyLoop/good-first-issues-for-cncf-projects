@@ -2072,6 +2072,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Mobile View: Hide Meshery logo from home page / overview",
+        "url": "https://github.com/meshery/meshery/issues/20459",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-03T16:15:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Sidebar shows 2 icon",
         "url": "https://github.com/meshery/meshery/issues/20392",
         "labels": [
@@ -2482,22 +2497,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
-        "url": "https://github.com/meshery/meshery/issues/13426",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "issue/willfix",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs]: Integrate Hugo module and shared-asset guidance to contributing guide",
         "url": "https://github.com/meshery/meshery/issues/20429",
         "labels": [
@@ -2840,17 +2839,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:56Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[mesheryctl] Populate generated model definitions with the requested model name",
-        "url": "https://github.com/meshery/meshery/issues/18982",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:55Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4614,6 +4602,19 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "AWS PushSecret CreateSecret fails with empty AddReplicaRegions when replicationLocations is unset (v2.7.0)",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6593",
+        "labels": [
+            "good first issue",
+            "kind/bug",
+            "area/aws"
+        ],
+        "created_at": "2026-07-02T12:23:24Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "\"How to get Involved\" section on ESO website is very outdated",
         "url": "https://github.com/external-secrets/external-secrets/issues/6486",
         "labels": [
@@ -5189,23 +5190,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "PathMatcher.buildUriFromTemplate throws StringIndexOutOfBoundsException for a template with an unclosed brace",
-        "url": "https://github.com/keycloak/keycloak/issues/50291",
-        "labels": [
-            "area/authorization-services",
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-06-24T07:18:51Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "NullPointerException in ResourceIndicatorsPostProcessor when refresh token is null",
         "url": "https://github.com/keycloak/keycloak/issues/50251",
         "labels": [
@@ -5640,6 +5624,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-12T02:29:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": " 'view-clients' bypasses 'view-users' restriction via 'client-scoped' endpoints",
+        "url": "https://github.com/keycloak/keycloak/issues/48858",
+        "labels": [
+            "kind/bug",
+            "area/admin/fine-grained-permissions",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-09T23:50:59Z"
     },
     {
         "repo": "keylime/keylime",
@@ -15292,6 +15292,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "feature: Add unit tests for wrapee.CreateOnly in generic transport controller",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3873",
+        "labels": [
+            "kind/feature",
+            "help wanted"
+        ],
+        "created_at": "2026-07-03T14:02:12Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: BindingPolicies with names >= 64 characters silently fail to create ManifestWorks",
         "url": "https://github.com/kubestellar/kubestellar/issues/3871",
         "labels": [
@@ -15639,18 +15651,6 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-06T13:20:39Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] ADOPTERS.md growth campaign \u2014 target 10+ orgs for CNCF Sandbox credibility",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3791",
-        "labels": [
-            "kind/feature",
-            "help wanted"
-        ],
-        "created_at": "2026-06-06T13:20:27Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -17235,6 +17235,17 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "dynamic_modules/tls: support auto_host_sni for runtime hosts and SNI-scoped session reuse",
+        "url": "https://github.com/envoyproxy/envoy/issues/45962",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-07-03T12:28:33Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Envoy `mcp_json_rest_bridge` filter injects unescaped path segments into the upstream request path (unauthenticated)",
         "url": "https://github.com/envoyproxy/envoy/issues/45931",
         "labels": [
@@ -17623,19 +17634,6 @@
             "area/ext_proc"
         ],
         "created_at": "2025-10-29T18:59:23Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "wasm: access log extension point is not thread safe",
-        "url": "https://github.com/envoyproxy/envoy/issues/41672",
-        "labels": [
-            "bug",
-            "help wanted",
-            "area/wasm"
-        ],
-        "created_at": "2025-10-23T21:20:28Z"
     },
     {
         "repo": "loxilb-io/loxilb",

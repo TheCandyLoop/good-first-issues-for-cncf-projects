@@ -2072,21 +2072,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Mobile View: Hide Meshery logo from home page / overview",
-        "url": "https://github.com/meshery/meshery/issues/20459",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-03T16:15:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Sidebar shows 2 icon",
         "url": "https://github.com/meshery/meshery/issues/20392",
         "labels": [
@@ -2492,6 +2477,35 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[CI] Bump docs-docker recipe to hugo image v0.163.3",
+        "url": "https://github.com/meshery/meshery/issues/20468",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-07-04T01:49:00Z"
     },
     {
         "repo": "meshery/meshery",
@@ -15807,18 +15821,6 @@
         "repo": "open-cluster-management-io/ocm",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Improve helm chart for klusterlet",
-        "url": "https://github.com/open-cluster-management-io/ocm/issues/1510",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-05-05T13:57:11Z"
-    },
-    {
-        "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "CI Checks Flaky Error",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1402",
         "labels": [
@@ -22845,7 +22847,8 @@
         "url": "https://github.com/helm/helm/issues/13182",
         "labels": [
             "help wanted",
-            "feature"
+            "feature",
+            "Stale"
         ],
         "created_at": "2024-07-16T08:42:33Z"
     },
@@ -30795,7 +30798,8 @@
             "good first issue",
             "kserve/control-plane",
             "stale-warning-1",
-            "stale-warning-2"
+            "stale-warning-2",
+            "stale-warning-3"
         ],
         "created_at": "2022-08-22T18:21:12Z"
     },

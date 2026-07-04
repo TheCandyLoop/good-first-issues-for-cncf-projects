@@ -2498,6 +2498,63 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Add rendered shortcode examples to the Contributing to Meshery Docs page",
+        "url": "https://github.com/meshery/meshery/issues/20482",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-04T18:59:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Improve visual hierarchy of leaf items in the documentation sidebar",
+        "url": "https://github.com/meshery/meshery/issues/20480",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-04T18:13:50Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Improve the \"Registering a Connection\" guide with screenshots and UI/mesheryctl workflows",
+        "url": "https://github.com/meshery/meshery/issues/20479",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-04T17:49:27Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Add Security Self-Assessment to Security Insights",
+        "url": "https://github.com/meshery/meshery/issues/20477",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "security",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-04T16:31:37Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[CI] Bump docs-docker recipe to hugo image v0.163.3",
         "url": "https://github.com/meshery/meshery/issues/20468",
         "labels": [
@@ -2803,56 +2860,6 @@
             "framework/react"
         ],
         "created_at": "2026-05-08T21:40:21Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] typo in favicon sizes attribute",
-        "url": "https://github.com/meshery/meshery/issues/19110",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-05T09:40:02Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Update Meshery Docs footer to match the footer from Meshery.io",
-        "url": "https://github.com/meshery/meshery/issues/19094",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-04T16:54:00Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Honor permission keys for registry create/import actions",
-        "url": "https://github.com/meshery/meshery/issues/18985",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:59Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Registry tree bulk-action checkbox never becomes visible",
-        "url": "https://github.com/meshery/meshery/issues/18983",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:56Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",

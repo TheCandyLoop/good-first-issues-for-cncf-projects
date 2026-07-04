@@ -26969,18 +26969,6 @@
         "created_at": "2025-10-01T18:46:28Z"
     },
     {
-        "repo": "krkn-chaos/krkn",
-        "tier": "Sandbox",
-        "lang": "Python",
-        "title": "test: migrate container_scenarios functional test to tests_v2",
-        "url": "https://github.com/krkn-chaos/krkn/issues/1399",
-        "labels": [
-            "enhancement",
-            "good-first-issue"
-        ],
-        "created_at": "2026-06-12T04:34:15Z"
-    },
-    {
         "repo": "opencost/opencost",
         "tier": "Incubating",
         "lang": "Go",

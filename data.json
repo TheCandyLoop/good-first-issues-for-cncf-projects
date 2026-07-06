@@ -17367,6 +17367,20 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "ratelimit/local_ratelimit: emit `Retry-After` header dynamically on 429 responses",
+        "url": "https://github.com/envoyproxy/envoy/issues/45384",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/ratelimit",
+            "area/local_ratelimit"
+        ],
+        "created_at": "2026-06-02T14:44:24Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Title: Support RFC 9440 (Client-Cert / Client-Cert-Chain) HTTP header fields",
         "url": "https://github.com/envoyproxy/envoy/issues/45354",
         "labels": [
@@ -17645,21 +17659,6 @@
             "area/compression"
         ],
         "created_at": "2025-11-07T10:24:03Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "feat: Credential Injection for ext_authz and ext_proc calls",
-        "url": "https://github.com/envoyproxy/envoy/issues/41767",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "no stalebot",
-            "area/ext_authz",
-            "area/ext_proc"
-        ],
-        "created_at": "2025-10-29T18:59:23Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -21372,20 +21371,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Delete search-backend-module-explore Now It Has Been Moved",
-        "url": "https://github.com/backstage/backstage/issues/32745",
-        "labels": [
-            "good first issue",
-            "stale",
-            "area:search",
-            "needs:triage"
-        ],
-        "created_at": "2026-02-08T15:03:35Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[PushFeedback] - Consider Adjusting Title for Azure Integration Sidebar Item",
         "url": "https://github.com/backstage/backstage/issues/31542",
         "labels": [
@@ -22759,7 +22744,8 @@
         "url": "https://github.com/helm/helm/issues/31617",
         "labels": [
             "help wanted",
-            "feature"
+            "feature",
+            "Stale"
         ],
         "created_at": "2025-12-08T07:19:32Z"
     },
@@ -23862,19 +23848,6 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add a command `oras blob cat` and `oras fs [explore|copy]` commands",
-        "url": "https://github.com/oras-project/oras/issues/1957",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "stale"
-        ],
-        "created_at": "2026-01-09T11:02:04Z"
     },
     {
         "repo": "oras-project/oras",
@@ -30889,7 +30862,8 @@
             "area/engprod",
             "kind/feature",
             "stale-warning-1",
-            "stale-warning-2"
+            "stale-warning-2",
+            "stale-warning-3"
         ],
         "created_at": "2020-07-13T01:22:49Z"
     },
